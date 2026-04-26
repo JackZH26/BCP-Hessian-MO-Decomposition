@@ -2,6 +2,14 @@
 
 > Per-Molecular-Orbital Decomposition of the QTAIM Bond Critical Point (BCP) Density Hessian: Algorithm and 102-Compound Benchmark Data
 
+
+## ⚠️ Status Notice (2026-04-26)
+
+**The v1 manuscript in `paper/` is a working draft and must not be submitted.**
+Independent peer review identified a fatal circularity in the σ/π classification rule.
+See [`paper/STATUS.md`](paper/STATUS.md) for details and the path forward.
+
+The 102-compound benchmark dataset and PySCF implementation remain valid.
 [![Tests](https://github.com/JackZH26/BCP-Hessian-MO-Decomposition/actions/workflows/tests.yml/badge.svg)](https://github.com/JackZH26/BCP-Hessian-MO-Decomposition/actions/workflows/tests.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://img.shields.io/badge/Figshare-10.6084%2Fm9.figshare.32088900-blue)](https://doi.org/10.6084/m9.figshare.32088900)
