@@ -10,3 +10,12 @@ __pycache__/
 *.bak
 node_modules/
 .env
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
