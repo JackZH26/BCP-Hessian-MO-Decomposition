@@ -1,0 +1,4 @@
+pyscf>=2.0
+numpy>=1.20
+scipy>=1.7
+geometric>=1.0  # for v12 geometry optimization (optional)

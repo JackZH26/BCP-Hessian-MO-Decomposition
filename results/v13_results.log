@@ -1,0 +1,228 @@
+
+=== Ethylene C=C  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.3511
+  Hessian eigenvals: λ₁=-0.7787 λ₂=-0.5382 λ₃=+0.2057
+  ε = λ₁/λ₂-1 = 0.4468,  δ_Bader = λ₂-λ₁ = 0.2405
+  Reconstruction: λ₁_recon = -0.7786 (target -0.7787)
+                  λ₂_recon = -0.5382 (target -0.5382)
+  -- π MOs contribute: λ₁_π=+0.1459  λ₂_π=-0.0019  δ_π = -0.1478
+  -- σ MOs contribute: λ₁_σ=-0.9246  λ₂_σ=-0.5363  δ_σ = 0.3883
+  Sum δ_π + δ_σ = 0.2405  vs δ_Bader = 0.2405  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[7] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.3611
+    MO[4] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1477
+    MO[5] (sigma)  ψ(BCP)=+0.311  contrib_to_δ = +0.0558
+    MO[2] (sigma)  ψ(BCP)=+0.280  contrib_to_δ = -0.0287
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0001
+    MO[0] (pi)  ψ(BCP)=+0.011  contrib_to_δ = -0.0000
+
+=== Propene C=C  basis=6-31G* ===
+  BCP: t=0.474, ρ_BCP=0.3537
+  Hessian eigenvals: λ₁=-0.7809 λ₂=-0.5674 λ₃=+0.1932
+  ε = λ₁/λ₂-1 = 0.3762,  δ_Bader = λ₂-λ₁ = 0.2135
+  Reconstruction: λ₁_recon = -0.7809 (target -0.7809)
+                  λ₂_recon = -0.5674 (target -0.5674)
+  -- π MOs contribute: λ₁_π=+0.0019  λ₂_π=-0.0013  δ_π = -0.0032
+  -- σ MOs contribute: λ₁_σ=-0.7828  λ₂_σ=-0.5661  δ_σ = 0.2167
+  Sum δ_π + δ_σ = 0.2135  vs δ_Bader = 0.2135  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[11] (sigma)  ψ(BCP)=+0.045  contrib_to_δ = +0.2743
+    MO[6] (sigma)  ψ(BCP)=-0.159  contrib_to_δ = -0.0496
+    MO[8] (sigma)  ψ(BCP)=+0.146  contrib_to_δ = -0.0371
+    MO[9] (sigma)  ψ(BCP)=+0.190  contrib_to_δ = +0.0236
+    MO[10] (sigma)  ψ(BCP)=+0.007  contrib_to_δ = +0.0196
+    MO[3] (sigma)  ψ(BCP)=+0.215  contrib_to_δ = -0.0147
+
+=== Butadiene 1-2  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.2988
+  Hessian eigenvals: λ₁=-0.6248 λ₂=-0.4631 λ₃=+0.2879
+  ε = λ₁/λ₂-1 = 0.3493,  δ_Bader = λ₂-λ₁ = 0.1618
+  Reconstruction: λ₁_recon = -0.6248 (target -0.6248)
+                  λ₂_recon = -0.4630 (target -0.4631)
+  -- π MOs contribute: λ₁_π=+0.0395  λ₂_π=-0.0419  δ_π = -0.0813
+  -- σ MOs contribute: λ₁_σ=-0.6643  λ₂_σ=-0.4212  δ_σ = 0.2431
+  Sum δ_π + δ_σ = 0.1618  vs δ_Bader = 0.1618  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1463
+    MO[12] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1046
+    MO[8] (pi)  ψ(BCP)=+0.071  contrib_to_δ = -0.0394
+    MO[10] (pi)  ψ(BCP)=-0.049  contrib_to_δ = -0.0393
+    MO[13] (sigma)  ψ(BCP)=-0.134  contrib_to_δ = +0.0109
+    MO[5] (sigma)  ψ(BCP)=-0.182  contrib_to_δ = -0.0097
+
+=== Butadiene 2-3  basis=6-31G* ===
+  BCP: t=0.648, ρ_BCP=0.4298
+  Hessian eigenvals: λ₁=-0.9540 λ₂=-0.9255 λ₃=+0.6575
+  ε = λ₁/λ₂-1 = 0.0308,  δ_Bader = λ₂-λ₁ = 0.0285
+  Reconstruction: λ₁_recon = -0.9540 (target -0.9540)
+                  λ₂_recon = -0.9255 (target -0.9255)
+  -- π MOs contribute: λ₁_π=+0.5014  λ₂_π=-0.0000  δ_π = -0.5014
+  -- σ MOs contribute: λ₁_σ=-1.4554  λ₂_σ=-0.9255  δ_σ = 0.5299
+  Sum δ_π + δ_σ = 0.0285  vs δ_Bader = 0.0285  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[12] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.4648
+    MO[8] (sigma)  ψ(BCP)=+0.129  contrib_to_δ = +0.2653
+    MO[13] (sigma)  ψ(BCP)=+0.024  contrib_to_δ = +0.0962
+    MO[4] (sigma)  ψ(BCP)=+0.292  contrib_to_δ = +0.0669
+    MO[6] (sigma)  ψ(BCP)=-0.171  contrib_to_δ = +0.0569
+    MO[11] (sigma)  ψ(BCP)=-0.168  contrib_to_δ = +0.0437
+
+=== Benzene C-C  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3215
+  Hessian eigenvals: λ₁=-0.6923 λ₂=-0.5621 λ₃=+0.2737
+  ε = λ₁/λ₂-1 = 0.2316,  δ_Bader = λ₂-λ₁ = 0.1302
+  Reconstruction: λ₁_recon = -0.6923 (target -0.6923)
+                  λ₂_recon = -0.5621 (target -0.5621)
+  -- π MOs contribute: λ₁_π=+0.0037  λ₂_π=-0.0444  δ_π = -0.0481
+  -- σ MOs contribute: λ₁_σ=-0.6960  λ₂_σ=-0.5176  δ_σ = 0.1784
+  Sum δ_π + δ_σ = 0.1302  vs δ_Bader = 0.1302  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[19] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1145
+    MO[16] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0812
+    MO[11] (pi)  ψ(BCP)=+0.056  contrib_to_δ = -0.0411
+    MO[20] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0364
+    MO[14] (sigma)  ψ(BCP)=-0.121  contrib_to_δ = -0.0236
+    MO[6] (sigma)  ψ(BCP)=+0.133  contrib_to_δ = -0.0176
+
+=== Naphthalene 0-1  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3066
+  Hessian eigenvals: λ₁=-0.6513 λ₂=-0.5496 λ₃=+0.2955
+  ε = λ₁/λ₂-1 = 0.1850,  δ_Bader = λ₂-λ₁ = 0.1017
+  Reconstruction: λ₁_recon = -0.6513 (target -0.6513)
+                  λ₂_recon = -0.5496 (target -0.5496)
+  -- π MOs contribute: λ₁_π=+0.0386  λ₂_π=-0.0661  δ_π = -0.1047
+  -- σ MOs contribute: λ₁_σ=-0.6899  λ₂_σ=-0.4835  δ_σ = 0.2063
+  Sum δ_π + δ_σ = 0.1017  vs δ_Bader = 0.1017  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[31] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1069
+    MO[26] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0823
+    MO[23] (pi)  ψ(BCP)=+0.031  contrib_to_δ = -0.0386
+    MO[15] (pi)  ψ(BCP)=-0.004  contrib_to_δ = -0.0239
+    MO[19] (pi)  ψ(BCP)=-0.014  contrib_to_δ = -0.0190
+    MO[10] (sigma)  ψ(BCP)=+0.146  contrib_to_δ = -0.0164
+
+=== Naphthalene 0-5  basis=6-31G* ===
+  BCP: t=0.485, ρ_BCP=0.2889
+  Hessian eigenvals: λ₁=-0.5600 λ₂=-0.5119 λ₃=+0.2704
+  ε = λ₁/λ₂-1 = 0.0939,  δ_Bader = λ₂-λ₁ = 0.0481
+  Reconstruction: λ₁_recon = -0.5600 (target -0.5600)
+                  λ₂_recon = -0.5119 (target -0.5119)
+  -- π MOs contribute: λ₁_π=-0.0358  λ₂_π=-0.1168  δ_π = -0.0810
+  -- σ MOs contribute: λ₁_σ=-0.5241  λ₂_σ=-0.3950  δ_σ = 0.1291
+  Sum δ_π + δ_σ = 0.0481  vs δ_Bader = 0.0481  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[30] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0578
+    MO[26] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0530
+    MO[31] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0412
+    MO[32] (sigma)  ψ(BCP)=+0.085  contrib_to_δ = -0.0399
+    MO[33] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0221
+    MO[27] (pi)  ψ(BCP)=-0.040  contrib_to_δ = -0.0196
+
+=== Naphthalene 0-6 (peri)  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3066
+  Hessian eigenvals: λ₁=-0.6564 λ₂=-0.5527 λ₃=+0.2950
+  ε = λ₁/λ₂-1 = 0.1877,  δ_Bader = λ₂-λ₁ = 0.1037
+  Reconstruction: λ₁_recon = -0.6564 (target -0.6564)
+                  λ₂_recon = -0.5527 (target -0.5527)
+  -- π MOs contribute: λ₁_π=-0.0716  λ₂_π=-0.1269  δ_π = -0.0553
+  -- σ MOs contribute: λ₁_σ=-0.5848  λ₂_σ=-0.4257  δ_σ = 0.1591
+  Sum δ_π + δ_σ = 0.1037  vs δ_Bader = 0.1037  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[30] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0667
+    MO[26] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0533
+    MO[31] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0367
+    MO[22] (sigma)  ψ(BCP)=+0.084  contrib_to_δ = -0.0229
+    MO[17] (pi)  ψ(BCP)=+0.060  contrib_to_δ = -0.0219
+    MO[33] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0169
+
+====================================================================================================
+SIGMA / PI DECOMPOSITION SUMMARY
+====================================================================================================
+System                          δ_Bader    δ_π_num    δ_σ_num   recon%    σ/Bader
+Ethylene C=C                     0.2405    -0.1478     0.3883     -0.0    +1.6147
+Propene C=C                      0.2135    -0.0032     0.2167     -0.0    +1.0150
+Butadiene 1-2                    0.1618    -0.0813     0.2431     -0.0    +1.5027
+Butadiene 2-3                    0.0285    -0.5014     0.5299     -0.0   +18.5903
+Benzene C-C                      0.1302    -0.0481     0.1784     -0.0    +1.3698
+Naphthalene 0-1                  0.1017    -0.1047     0.2063     -0.0    +2.0295
+Naphthalene 0-5                  0.0481    -0.0810     0.1291     -0.0    +2.6849
+Naphthalene 0-6 (peri)           0.1037    -0.0553     0.1591     -0.0    +1.5333
+========================================================================================================================
+v13: Localized MO 独立分类 (Boys + Pipek-Mezey + IBO)
+========================================================================================================================
+
+>>> Ethylene
+  boys  : ε=+0.4468  δ_σ=+0.3883  δ_π=-0.1478  recon=+0.2405 (target +0.2405)  n_σ=6 n_π=2
+  pm    : ε=+0.4468  δ_σ=+0.3883  δ_π=-0.1478  recon=+0.2405 (target +0.2405)  n_σ=6 n_π=2
+ Iterative localization: IB/P4/2x2, 7 iter; Final gradient 1.01e-09
+  ibo   : ε=+0.4468  δ_σ=+0.3743  δ_π=-0.1339  recon=+0.2405 (target +0.2405)  n_σ=2 n_π=6
+
+>>> N2H2
+  boys  : ε=+0.1861  δ_σ=+0.6190  δ_π=-0.4384  recon=+0.1806 (target +0.1806)  n_σ=2 n_π=6
+  pm    : ε=+0.1861  δ_σ=+0.6212  δ_π=-0.4406  recon=+0.1806 (target +0.1806)  n_σ=2 n_π=6
+ Iterative localization: IB/P4/2x2, 8 iter; Final gradient 1.65e-10
+  ibo   : ε=+0.1861  δ_σ=+0.6216  δ_π=-0.4410  recon=+0.1806 (target +0.1806)  n_σ=2 n_π=6
+
+>>> H2CO
+  boys  : ε=+0.0888  δ_σ=+0.7419  δ_π=-0.6433  recon=+0.0986 (target +0.0986)  n_σ=4 n_π=4
+  pm    : ε=+0.0888  δ_σ=+0.7442  δ_π=-0.6455  recon=+0.0986 (target +0.0986)  n_σ=4 n_π=4
+ Iterative localization: IB/P4/2x2, 6 iter; Final gradient 2.70e-09
+  ibo   : ε=+0.0888  δ_σ=+0.7475  δ_π=-0.6489  recon=+0.0986 (target +0.0986)  n_σ=4 n_π=4
+
+>>> HCCH
+  boys  : ε=+0.0000  δ_σ=+0.0590  δ_π=-0.0590  recon=-0.0000 (target +0.0000)  n_σ=2 n_π=5
+  pm    : ε=+0.0000  δ_σ=+0.5190  δ_π=-0.5190  recon=+0.0000 (target +0.0000)  n_σ=4 n_π=3
+ Iterative localization: IB/P4/2x2, 7 iter; Final gradient 1.04e-09
+  ibo   : ε=+0.0000  δ_σ=+0.0886  δ_π=-0.0886  recon=-0.0000 (target +0.0000)  n_σ=4 n_π=3
+
+>>> Ethane
+  boys  : ε=+0.0000  δ_σ=+0.0887  δ_π=-0.0887  recon=+0.0000 (target +0.0000)  n_σ=7 n_π=2
+  pm    : ε=+0.0000  δ_σ=+0.0887  δ_π=-0.0887  recon=+0.0000 (target +0.0000)  n_σ=7 n_π=2
+ Iterative localization: IB/P4/2x2, 7 iter; Final gradient 1.53e-09
+  ibo   : ε=+0.0000  δ_σ=+0.0574  δ_π=-0.0574  recon=+0.0000 (target +0.0000)  n_σ=5 n_π=4
+
+>>> Cyclopropane
+  boys  : ε=+0.8445  δ_σ=+0.3163  δ_π=-0.0942  recon=+0.2221 (target +0.2221)  n_σ=9 n_π=3
+  pm    : ε=+0.8445  δ_σ=+0.3163  δ_π=-0.0942  recon=+0.2221 (target +0.2221)  n_σ=9 n_π=3
+ Iterative localization: IB/P4/2x2, 8 iter; Final gradient 4.10e-10
+  ibo   : ε=+0.8445  δ_σ=+0.2919  δ_π=-0.0698  recon=+0.2221 (target +0.2221)  n_σ=8 n_π=4
+
+>>> Allene
+  boys  : ε=+0.5336  δ_σ=+0.5861  δ_π=-0.3236  recon=+0.2625 (target +0.2625)  n_σ=4 n_π=7
+  pm    : ε=+0.5336  δ_σ=+0.5795  δ_π=-0.3170  recon=+0.2625 (target +0.2625)  n_σ=5 n_π=6
+ Iterative localization: IB/P4/2x2, 9 iter; Final gradient 1.33e-09
+  ibo   : ε=+0.5336  δ_σ=+0.5767  δ_π=-0.3142  recon=+0.2625 (target +0.2625)  n_σ=5 n_π=6
+
+>>> BH3
+  boys  : ε=+0.2800  δ_σ=+0.0979  δ_π=+0.0000  recon=+0.0979 (target +0.0979)  n_σ=4 n_π=0
+  pm    : ε=+0.2800  δ_σ=+0.0979  δ_π=+0.0000  recon=+0.0979 (target +0.0979)  n_σ=4 n_π=0
+ Iterative localization: IB/P4/2x2, 5 iter; Final gradient 1.00e-09
+  ibo   : ε=+0.2800  δ_σ=+0.0979  δ_π=+0.0000  recon=+0.0979 (target +0.0979)  n_σ=4 n_π=0
+
+>>> Benzene
+  boys  : ε=+0.2316  δ_σ=+0.2481  δ_π=-0.1179  recon=+0.1302 (target +0.1302)  n_σ=4 n_π=17
+  pm    : ε=+0.2316  δ_σ=+0.2470  δ_π=-0.1168  recon=+0.1302 (target +0.1302)  n_σ=4 n_π=17
+ Iterative localization: IB/P4/2x2, 10 iter; Final gradient 5.94e-09
+  ibo   : ε=+0.2316  δ_σ=+0.2460  δ_π=-0.1158  recon=+0.1302 (target +0.1302)  n_σ=4 n_π=17
+
+>>> Furan
+  boys  : ε=+0.4207  δ_σ=+0.2763  δ_π=-0.0972  recon=+0.1792 (target +0.1792)  n_σ=6 n_π=12
+  pm    : ε=+0.4207  δ_σ=+0.2762  δ_π=-0.0970  recon=+0.1792 (target +0.1792)  n_σ=5 n_π=13
+ Iterative localization: IB/P4/2x2, 8 iter; Final gradient 8.65e-10
+  ibo   : ε=+0.4207  δ_σ=+0.2752  δ_π=-0.0960  recon=+0.1792 (target +0.1792)  n_σ=4 n_π=14
+
+>>> N2F4
+  boys  : ε=+0.6856  δ_σ=+0.4422  δ_π=-0.0713  recon=+0.3709 (target +0.3709)  n_σ=7 n_π=18
+  pm    : ε=+0.6856  δ_σ=+0.4232  δ_π=-0.0523  recon=+0.3709 (target +0.3709)  n_σ=9 n_π=16
+ Iterative localization: IB/P4/2x2, 9 iter; Final gradient 3.53e-10
+  ibo   : ε=+0.6856  δ_σ=+0.4209  δ_π=-0.0500  recon=+0.3709 (target +0.3709)  n_σ=8 n_π=17
+
+>>> CHF=CHF trans
+  boys  : ε=+0.7304  δ_σ=+0.4553  δ_π=-0.0830  recon=+0.3723 (target +0.3723)  n_σ=6 n_π=10
+  pm    : ε=+0.7304  δ_σ=+0.4486  δ_π=-0.0763  recon=+0.3723 (target +0.3723)  n_σ=4 n_π=12
+ Iterative localization: IB/P4/2x2, 8 iter; Final gradient 8.14e-11
+  ibo   : ε=+0.7304  δ_σ=+0.4466  δ_π=-0.0743  recon=+0.3723 (target +0.3723)  n_σ=4 n_π=12
+
+========================================================================================================================
+v13 验证：LMO 是否复现 δ_σ > 0, δ_π < 0 规律
+========================================================================================================================

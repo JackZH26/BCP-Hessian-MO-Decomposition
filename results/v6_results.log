@@ -1,0 +1,608 @@
+
+=== Ethylene C=C  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.3511
+  Hessian eigenvals: λ₁=-0.7787 λ₂=-0.5382 λ₃=+0.2057
+  ε = λ₁/λ₂-1 = 0.4468,  δ_Bader = λ₂-λ₁ = 0.2405
+  Reconstruction: λ₁_recon = -0.7786 (target -0.7787)
+                  λ₂_recon = -0.5382 (target -0.5382)
+  -- π MOs contribute: λ₁_π=+0.1459  λ₂_π=-0.0019  δ_π = -0.1478
+  -- σ MOs contribute: λ₁_σ=-0.9246  λ₂_σ=-0.5363  δ_σ = 0.3883
+  Sum δ_π + δ_σ = 0.2405  vs δ_Bader = 0.2405  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[7] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.3611
+    MO[4] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.1477
+    MO[5] (sigma)  ψ(BCP)=+0.311  contrib_to_δ = +0.0558
+    MO[2] (sigma)  ψ(BCP)=+0.280  contrib_to_δ = -0.0287
+    MO[6] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0001
+    MO[0] (pi)  ψ(BCP)=+0.011  contrib_to_δ = -0.0000
+
+=== Propene C=C  basis=6-31G* ===
+  BCP: t=0.474, ρ_BCP=0.3537
+  Hessian eigenvals: λ₁=-0.7809 λ₂=-0.5674 λ₃=+0.1932
+  ε = λ₁/λ₂-1 = 0.3762,  δ_Bader = λ₂-λ₁ = 0.2135
+  Reconstruction: λ₁_recon = -0.7809 (target -0.7809)
+                  λ₂_recon = -0.5674 (target -0.5674)
+  -- π MOs contribute: λ₁_π=+0.0019  λ₂_π=-0.0013  δ_π = -0.0032
+  -- σ MOs contribute: λ₁_σ=-0.7828  λ₂_σ=-0.5661  δ_σ = 0.2167
+  Sum δ_π + δ_σ = 0.2135  vs δ_Bader = 0.2135  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[11] (sigma)  ψ(BCP)=+0.045  contrib_to_δ = +0.2743
+    MO[6] (sigma)  ψ(BCP)=-0.159  contrib_to_δ = -0.0496
+    MO[8] (sigma)  ψ(BCP)=+0.146  contrib_to_δ = -0.0371
+    MO[9] (sigma)  ψ(BCP)=+0.190  contrib_to_δ = +0.0236
+    MO[10] (sigma)  ψ(BCP)=+0.007  contrib_to_δ = +0.0196
+    MO[3] (sigma)  ψ(BCP)=+0.215  contrib_to_δ = -0.0147
+
+=== Butadiene 1-2  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.2988
+  Hessian eigenvals: λ₁=-0.6248 λ₂=-0.4631 λ₃=+0.2879
+  ε = λ₁/λ₂-1 = 0.3493,  δ_Bader = λ₂-λ₁ = 0.1618
+  Reconstruction: λ₁_recon = -0.6248 (target -0.6248)
+                  λ₂_recon = -0.4630 (target -0.4631)
+  -- π MOs contribute: λ₁_π=+0.0395  λ₂_π=-0.0419  δ_π = -0.0813
+  -- σ MOs contribute: λ₁_σ=-0.6643  λ₂_σ=-0.4212  δ_σ = 0.2431
+  Sum δ_π + δ_σ = 0.1618  vs δ_Bader = 0.1618  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1463
+    MO[12] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1046
+    MO[8] (pi)  ψ(BCP)=+0.071  contrib_to_δ = -0.0394
+    MO[10] (pi)  ψ(BCP)=-0.049  contrib_to_δ = -0.0393
+    MO[13] (sigma)  ψ(BCP)=+0.134  contrib_to_δ = +0.0109
+    MO[5] (sigma)  ψ(BCP)=-0.182  contrib_to_δ = -0.0097
+
+=== Butadiene 2-3  basis=6-31G* ===
+  BCP: t=0.648, ρ_BCP=0.4298
+  Hessian eigenvals: λ₁=-0.9540 λ₂=-0.9255 λ₃=+0.6575
+  ε = λ₁/λ₂-1 = 0.0308,  δ_Bader = λ₂-λ₁ = 0.0285
+  Reconstruction: λ₁_recon = -0.9540 (target -0.9540)
+                  λ₂_recon = -0.9255 (target -0.9255)
+  -- π MOs contribute: λ₁_π=+0.5014  λ₂_π=+0.0000  δ_π = -0.5014
+  -- σ MOs contribute: λ₁_σ=-1.4554  λ₂_σ=-0.9255  δ_σ = 0.5299
+  Sum δ_π + δ_σ = 0.0285  vs δ_Bader = 0.0285  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[12] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.4648
+    MO[8] (sigma)  ψ(BCP)=+0.129  contrib_to_δ = +0.2653
+    MO[13] (sigma)  ψ(BCP)=-0.024  contrib_to_δ = +0.0962
+    MO[4] (sigma)  ψ(BCP)=+0.292  contrib_to_δ = +0.0669
+    MO[6] (sigma)  ψ(BCP)=-0.171  contrib_to_δ = +0.0569
+    MO[11] (sigma)  ψ(BCP)=-0.168  contrib_to_δ = +0.0437
+
+=== Benzene C-C  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3215
+  Hessian eigenvals: λ₁=-0.6923 λ₂=-0.5621 λ₃=+0.2737
+  ε = λ₁/λ₂-1 = 0.2316,  δ_Bader = λ₂-λ₁ = 0.1302
+  Reconstruction: λ₁_recon = -0.6923 (target -0.6923)
+                  λ₂_recon = -0.5621 (target -0.5621)
+  -- π MOs contribute: λ₁_π=+0.0037  λ₂_π=-0.0444  δ_π = -0.0481
+  -- σ MOs contribute: λ₁_σ=-0.6960  λ₂_σ=-0.5176  δ_σ = 0.1784
+  Sum δ_π + δ_σ = 0.1302  vs δ_Bader = 0.1302  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[19] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1145
+    MO[16] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0812
+    MO[11] (pi)  ψ(BCP)=+0.056  contrib_to_δ = -0.0411
+    MO[20] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0364
+    MO[14] (sigma)  ψ(BCP)=-0.121  contrib_to_δ = -0.0236
+    MO[6] (sigma)  ψ(BCP)=+0.133  contrib_to_δ = -0.0176
+
+=== Naphthalene 0-1  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3066
+  Hessian eigenvals: λ₁=-0.6513 λ₂=-0.5496 λ₃=+0.2955
+  ε = λ₁/λ₂-1 = 0.1850,  δ_Bader = λ₂-λ₁ = 0.1017
+  Reconstruction: λ₁_recon = -0.6513 (target -0.6513)
+                  λ₂_recon = -0.5496 (target -0.5496)
+  -- π MOs contribute: λ₁_π=+0.0386  λ₂_π=-0.0661  δ_π = -0.1047
+  -- σ MOs contribute: λ₁_σ=-0.6899  λ₂_σ=-0.4835  δ_σ = 0.2063
+  Sum δ_π + δ_σ = 0.1017  vs δ_Bader = 0.1017  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[31] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1069
+    MO[26] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0823
+    MO[23] (pi)  ψ(BCP)=+0.031  contrib_to_δ = -0.0386
+    MO[15] (pi)  ψ(BCP)=-0.004  contrib_to_δ = -0.0239
+    MO[19] (pi)  ψ(BCP)=-0.014  contrib_to_δ = -0.0190
+    MO[10] (sigma)  ψ(BCP)=+0.146  contrib_to_δ = -0.0164
+
+=== Naphthalene 0-5  basis=6-31G* ===
+  BCP: t=0.485, ρ_BCP=0.2889
+  Hessian eigenvals: λ₁=-0.5600 λ₂=-0.5119 λ₃=+0.2704
+  ε = λ₁/λ₂-1 = 0.0939,  δ_Bader = λ₂-λ₁ = 0.0481
+  Reconstruction: λ₁_recon = -0.5600 (target -0.5600)
+                  λ₂_recon = -0.5119 (target -0.5119)
+  -- π MOs contribute: λ₁_π=-0.0358  λ₂_π=-0.1168  δ_π = -0.0810
+  -- σ MOs contribute: λ₁_σ=-0.5241  λ₂_σ=-0.3950  δ_σ = 0.1291
+  Sum δ_π + δ_σ = 0.0481  vs δ_Bader = 0.0481  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[30] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0578
+    MO[26] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0530
+    MO[31] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0412
+    MO[32] (sigma)  ψ(BCP)=+0.085  contrib_to_δ = -0.0399
+    MO[33] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0221
+    MO[27] (pi)  ψ(BCP)=-0.040  contrib_to_δ = -0.0196
+
+=== Naphthalene 0-6 (peri)  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3066
+  Hessian eigenvals: λ₁=-0.6564 λ₂=-0.5527 λ₃=+0.2950
+  ε = λ₁/λ₂-1 = 0.1877,  δ_Bader = λ₂-λ₁ = 0.1037
+  Reconstruction: λ₁_recon = -0.6564 (target -0.6564)
+                  λ₂_recon = -0.5527 (target -0.5527)
+  -- π MOs contribute: λ₁_π=-0.0716  λ₂_π=-0.1269  δ_π = -0.0553
+  -- σ MOs contribute: λ₁_σ=-0.5848  λ₂_σ=-0.4257  δ_σ = 0.1591
+  Sum δ_π + δ_σ = 0.1037  vs δ_Bader = 0.1037  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[30] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0667
+    MO[26] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0533
+    MO[31] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0367
+    MO[22] (sigma)  ψ(BCP)=+0.084  contrib_to_δ = -0.0229
+    MO[17] (pi)  ψ(BCP)=+0.060  contrib_to_δ = -0.0219
+    MO[33] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0169
+
+====================================================================================================
+SIGMA / PI DECOMPOSITION SUMMARY
+====================================================================================================
+System                          δ_Bader    δ_π_num    δ_σ_num   recon%    σ/Bader
+Ethylene C=C                     0.2405    -0.1478     0.3883     -0.0    +1.6147
+Propene C=C                      0.2135    -0.0032     0.2167     -0.0    +1.0150
+Butadiene 1-2                    0.1618    -0.0813     0.2431     -0.0    +1.5027
+Butadiene 2-3                    0.0285    -0.5014     0.5299     -0.0   +18.5903
+Benzene C-C                      0.1302    -0.0481     0.1784     -0.0    +1.3698
+Naphthalene 0-1                  0.1017    -0.1047     0.2063     -0.0    +2.0295
+Naphthalene 0-5                  0.0481    -0.0810     0.1291     -0.0    +2.6849
+Naphthalene 0-6 (peri)           0.1037    -0.0553     0.1591     -0.0    +1.5333
+========================================================================================================================
+25 化合物 σ/π Hessian 分解扩展验证
+========================================================================================================================
+
+=== A1 Ethylene C=C  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.3511
+  Hessian eigenvals: λ₁=-0.7787 λ₂=-0.5382 λ₃=+0.2057
+  ε = λ₁/λ₂-1 = 0.4468,  δ_Bader = λ₂-λ₁ = 0.2405
+  Reconstruction: λ₁_recon = -0.7786 (target -0.7787)
+                  λ₂_recon = -0.5382 (target -0.5382)
+  -- π MOs contribute: λ₁_π=+0.1478  λ₂_π=-0.0000  δ_π = -0.1478
+  -- σ MOs contribute: λ₁_σ=-0.9264  λ₂_σ=-0.5382  δ_σ = 0.3883
+  Sum δ_π + δ_σ = 0.2405  vs δ_Bader = 0.2405  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[7] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.3611
+    MO[4] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1477
+    MO[5] (sigma)  ψ(BCP)=+0.311  contrib_to_δ = +0.0558
+    MO[2] (sigma)  ψ(BCP)=+0.280  contrib_to_δ = -0.0287
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0001
+    MO[0] (sigma)  ψ(BCP)=+0.011  contrib_to_δ = -0.0000
+
+=== A2 N2H2 trans N=N  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.4701
+  Hessian eigenvals: λ₁=-1.1514 λ₂=-0.9707 λ₃=+0.8970
+  ε = λ₁/λ₂-1 = 0.1861,  δ_Bader = λ₂-λ₁ = 0.1806
+  Reconstruction: λ₁_recon = -1.1513 (target -1.1514)
+                  λ₂_recon = -0.9707 (target -0.9707)
+  -- π MOs contribute: λ₁_π=+0.4411  λ₂_π=-0.0010  δ_π = -0.4421
+  -- σ MOs contribute: λ₁_σ=-1.5924  λ₂_σ=-0.9697  δ_σ = 0.6228
+  Sum δ_π + δ_σ = 0.1806  vs δ_Bader = 0.1806  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[6] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.6031
+    MO[5] (pi)  ψ(BCP)=+0.001  contrib_to_δ = -0.4026
+    MO[4] (sigma)  ψ(BCP)=-0.305  contrib_to_δ = +0.0549
+    MO[3] (pi)  ψ(BCP)=+0.001  contrib_to_δ = -0.0396
+    MO[2] (sigma)  ψ(BCP)=+0.362  contrib_to_δ = -0.0214
+    MO[7] (sigma)  ψ(BCP)=+0.104  contrib_to_δ = -0.0139
+
+=== A3 P2H2 trans P=P  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.1384
+  Hessian eigenvals: λ₁=-0.1681 λ₂=-0.1235 λ₃=+0.0602
+  ε = λ₁/λ₂-1 = 0.3618,  δ_Bader = λ₂-λ₁ = 0.0447
+  Reconstruction: λ₁_recon = -0.1681 (target -0.1681)
+                  λ₂_recon = -0.1235 (target -0.1235)
+  -- π MOs contribute: λ₁_π=+0.0277  λ₂_π=-0.0007  δ_π = -0.0285
+  -- σ MOs contribute: λ₁_σ=-0.1958  λ₂_σ=-0.1227  δ_σ = 0.0731
+  Sum δ_π + δ_σ = 0.0447  vs δ_Bader = 0.0447  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[14] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0681
+    MO[13] (pi)  ψ(BCP)=-0.001  contrib_to_δ = -0.0275
+    MO[12] (sigma)  ψ(BCP)=+0.170  contrib_to_δ = +0.0156
+    MO[15] (sigma)  ψ(BCP)=+0.107  contrib_to_δ = -0.0065
+    MO[10] (sigma)  ψ(BCP)=+0.169  contrib_to_δ = -0.0043
+    MO[11] (pi)  ψ(BCP)=+0.001  contrib_to_δ = -0.0008
+
+=== A4 Isobutylene C=C  basis=6-31G* ===
+  BCP: t=0.485, ρ_BCP=0.3430
+  Hessian eigenvals: λ₁=-0.7479 λ₂=-0.5094 λ₃=+0.2117
+  ε = λ₁/λ₂-1 = 0.4681,  δ_Bader = λ₂-λ₁ = 0.2385
+  Reconstruction: λ₁_recon = -0.7479 (target -0.7479)
+                  λ₂_recon = -0.5094 (target -0.5094)
+  -- π MOs contribute: λ₁_π=+0.1102  λ₂_π=-0.0352  δ_π = -0.1454
+  -- σ MOs contribute: λ₁_σ=-0.8581  λ₂_σ=-0.4743  δ_σ = 0.3838
+  Sum δ_π + δ_σ = 0.2385  vs δ_Bader = 0.2385  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[15] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.3310
+    MO[10] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.1068
+    MO[11] (sigma)  ψ(BCP)=-0.228  contrib_to_δ = +0.0416
+    MO[9] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0270
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0167
+    MO[13] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0142
+
+=== B1 H2CO C=O  basis=6-31G* ===
+  BCP: t=0.321, ρ_BCP=0.4131
+  Hessian eigenvals: λ₁=-1.2090 λ₂=-1.1103 λ₃=+3.1582
+  ε = λ₁/λ₂-1 = 0.0888,  δ_Bader = λ₂-λ₁ = 0.0986
+  Reconstruction: λ₁_recon = -1.2088 (target -1.2090)
+                  λ₂_recon = -1.1102 (target -1.1103)
+  -- π MOs contribute: λ₁_π=+0.7109  λ₂_π=+0.0416  δ_π = -0.6693
+  -- σ MOs contribute: λ₁_σ=-1.9197  λ₂_σ=-1.1518  δ_σ = 0.7679
+  Sum δ_π + δ_σ = 0.0986  vs δ_Bader = 0.0986  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[6] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.7215
+    MO[4] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.6608
+    MO[5] (sigma)  ψ(BCP)=-0.315  contrib_to_δ = +0.0511
+    MO[3] (pi)  ψ(BCP)=+0.029  contrib_to_δ = -0.0084
+    MO[2] (sigma)  ψ(BCP)=+0.299  contrib_to_δ = -0.0043
+    MO[1] (sigma)  ψ(BCP)=+0.131  contrib_to_δ = -0.0005
+
+=== B2 H2CNH C=N  basis=6-31G* ===
+  BCP: t=0.464, ρ_BCP=0.3112
+  Hessian eigenvals: λ₁=-0.6023 λ₂=-0.5881 λ₃=+0.4071
+  ε = λ₁/λ₂-1 = 0.0241,  δ_Bader = λ₂-λ₁ = 0.0142
+  Reconstruction: λ₁_recon = -0.6022 (target -0.6023)
+                  λ₂_recon = -0.5881 (target -0.5881)
+  -- π MOs contribute: λ₁_π=+0.0006  λ₂_π=-0.0023  δ_π = -0.0029
+  -- σ MOs contribute: λ₁_σ=-0.6028  λ₂_σ=-0.5858  δ_σ = 0.0170
+  Sum δ_π + δ_σ = 0.0142  vs δ_Bader = 0.0142  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[6] (sigma)  ψ(BCP)=+0.112  contrib_to_δ = -0.2069
+    MO[4] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1256
+    MO[7] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1182
+    MO[5] (sigma)  ψ(BCP)=+0.266  contrib_to_δ = -0.0127
+    MO[2] (sigma)  ψ(BCP)=+0.269  contrib_to_δ = -0.0072
+    MO[3] (pi)  ψ(BCP)=-0.003  contrib_to_δ = -0.0027
+
+=== B3 Acetone C=O  basis=6-31G* ===
+  BCP: t=0.321, ρ_BCP=0.4038
+  Hessian eigenvals: λ₁=-1.1497 λ₂=-1.0801 λ₃=+2.7679
+  ε = λ₁/λ₂-1 = 0.0644,  δ_Bader = λ₂-λ₁ = 0.0696
+  Reconstruction: λ₁_recon = -1.1496 (target -1.1497)
+                  λ₂_recon = -1.0800 (target -1.0801)
+  -- π MOs contribute: λ₁_π=+0.5957  λ₂_π=-0.0331  δ_π = -0.6288
+  -- σ MOs contribute: λ₁_σ=-1.7453  λ₂_σ=-1.0469  δ_σ = 0.6984
+  Sum δ_π + δ_σ = 0.0696  vs δ_Bader = 0.0696  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.5097
+    MO[8] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.3948
+    MO[9] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1610
+    MO[13] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1367
+    MO[6] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0960
+    MO[12] (sigma)  ψ(BCP)=-0.199  contrib_to_δ = +0.0464
+
+=== C1 N2 N≡N  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.6807
+  Hessian eigenvals: λ₁=-1.6148 λ₂=-1.6148 λ₃=+0.7591
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -1.6147 (target -1.6148)
+                  λ₂_recon = -1.6147 (target -1.6148)
+  -- π MOs contribute: λ₁_π=+0.5977  λ₂_π=+0.4939  δ_π = -0.1038
+  -- σ MOs contribute: λ₁_σ=-2.2125  λ₂_σ=-2.1087  δ_σ = 0.1038
+  Sum δ_π + δ_σ = 0.0000  vs δ_Bader = 0.0000  (recon err +675.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1038
+    MO[5] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1038
+    MO[0] (pi)  ψ(BCP)=+0.018  contrib_to_δ = +0.0000
+    MO[1] (sigma)  ψ(BCP)=-0.001  contrib_to_δ = -0.0000
+    MO[2] (sigma)  ψ(BCP)=+0.486  contrib_to_δ = +0.0000
+    MO[3] (pi)  ψ(BCP)=-0.001  contrib_to_δ = +0.0000
+
+=== C2 HCCH C≡C  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.4040
+  Hessian eigenvals: λ₁=-0.5588 λ₂=-0.5588 λ₃=-0.0729
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -0.5587 (target -0.5588)
+                  λ₂_recon = -0.5587 (target -0.5588)
+  -- π MOs contribute: λ₁_π=+0.5238  λ₂_π=+0.0144  δ_π = -0.5094
+  -- σ MOs contribute: λ₁_σ=-1.0825  λ₂_σ=-0.5731  δ_σ = 0.5094
+  Sum δ_π + δ_σ = 0.0000  vs δ_Bader = 0.0000  (recon err -7.7%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[5] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.5094
+    MO[6] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.5094
+    MO[3] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0000
+    MO[0] (pi)  ψ(BCP)=+0.022  contrib_to_δ = +0.0000
+    MO[1] (sigma)  ψ(BCP)=+0.001  contrib_to_δ = +0.0000
+    MO[2] (sigma)  ψ(BCP)=+0.357  contrib_to_δ = +0.0000
+
+=== C3 HCN C≡N  basis=6-31G* ===
+  BCP: t=0.332, ρ_BCP=0.4644
+  Hessian eigenvals: λ₁=-0.9876 λ₂=-0.9876 λ₃=+2.9374
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -0.9875 (target -0.9876)
+                  λ₂_recon = -0.9875 (target -0.9876)
+  -- π MOs contribute: λ₁_π=+0.9216  λ₂_π=+0.0189  δ_π = -0.9027
+  -- σ MOs contribute: λ₁_σ=-1.9091  λ₂_σ=-1.0064  δ_σ = 0.9027
+  Sum δ_π + δ_σ = 0.0000  vs δ_Bader = 0.0000  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[5] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.9027
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.9027
+    MO[0] (pi)  ψ(BCP)=+0.002  contrib_to_δ = +0.0000
+    MO[1] (sigma)  ψ(BCP)=+0.135  contrib_to_δ = +0.0000
+    MO[2] (sigma)  ψ(BCP)=+0.362  contrib_to_δ = +0.0000
+    MO[3] (sigma)  ψ(BCP)=+0.105  contrib_to_δ = +0.0000
+
+=== C4 CO C≡O  basis=6-31G* ===
+  BCP: t=0.332, ρ_BCP=0.4801
+  Hessian eigenvals: λ₁=-1.6205 λ₂=-1.6205 λ₃=+4.4152
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -1.6203 (target -1.6205)
+                  λ₂_recon = -1.6203 (target -1.6205)
+  -- π MOs contribute: λ₁_π=+0.5159  λ₂_π=+0.2525  δ_π = -0.2633
+  -- σ MOs contribute: λ₁_σ=-2.1362  λ₂_σ=-1.8729  δ_σ = 0.2633
+  Sum δ_π + δ_σ = 0.0000  vs δ_Bader = 0.0000  (recon err +17.9%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[5] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.2633
+    MO[4] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.2633
+    MO[0] (pi)  ψ(BCP)=+0.001  contrib_to_δ = +0.0000
+    MO[1] (sigma)  ψ(BCP)=+0.149  contrib_to_δ = +0.0000
+    MO[2] (sigma)  ψ(BCP)=+0.338  contrib_to_δ = +0.0000
+    MO[3] (sigma)  ψ(BCP)=-0.249  contrib_to_δ = +0.0000
+
+=== D1 Benzene C-C  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3215
+  Hessian eigenvals: λ₁=-0.6923 λ₂=-0.5621 λ₃=+0.2737
+  ε = λ₁/λ₂-1 = 0.2316,  δ_Bader = λ₂-λ₁ = 0.1302
+  Reconstruction: λ₁_recon = -0.6923 (target -0.6923)
+                  λ₂_recon = -0.5621 (target -0.5621)
+  -- π MOs contribute: λ₁_π=+0.0037  λ₂_π=-0.0444  δ_π = -0.0481
+  -- σ MOs contribute: λ₁_σ=-0.6960  λ₂_σ=-0.5176  δ_σ = 0.1784
+  Sum δ_π + δ_σ = 0.1302  vs δ_Bader = 0.1302  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[19] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1145
+    MO[16] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0812
+    MO[11] (pi)  ψ(BCP)=+0.056  contrib_to_δ = -0.0411
+    MO[20] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0364
+    MO[14] (sigma)  ψ(BCP)=-0.121  contrib_to_δ = -0.0236
+    MO[6] (sigma)  ψ(BCP)=+0.133  contrib_to_δ = -0.0176
+
+=== D2 Pyridine C2-C3  basis=6-31G* ===
+  BCP: t=0.495, ρ_BCP=0.3176
+  Hessian eigenvals: λ₁=-0.6902 λ₂=-0.5569 λ₃=+0.2932
+  ε = λ₁/λ₂-1 = 0.2393,  δ_Bader = λ₂-λ₁ = 0.1333
+  Reconstruction: λ₁_recon = -0.6901 (target -0.6902)
+                  λ₂_recon = -0.5569 (target -0.5569)
+  -- π MOs contribute: λ₁_π=-0.0321  λ₂_π=-0.0758  δ_π = -0.0437
+  -- σ MOs contribute: λ₁_σ=-0.6580  λ₂_σ=-0.4811  δ_σ = 0.1769
+  Sum δ_π + δ_σ = 0.1332  vs δ_Bader = 0.1333  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[20] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1484
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0510
+    MO[11] (pi)  ψ(BCP)=-0.069  contrib_to_δ = -0.0329
+    MO[19] (sigma)  ψ(BCP)=+0.144  contrib_to_δ = +0.0252
+    MO[16] (sigma)  ψ(BCP)=-0.148  contrib_to_δ = -0.0237
+    MO[18] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0193
+
+=== D3 Furan C2-C3  basis=6-31G* ===
+  BCP: t=0.526, ρ_BCP=0.2895
+  Hessian eigenvals: λ₁=-0.6051 λ₂=-0.4259 λ₃=+0.2821
+  ε = λ₁/λ₂-1 = 0.4207,  δ_Bader = λ₂-λ₁ = 0.1792
+  Reconstruction: λ₁_recon = -0.6051 (target -0.6051)
+                  λ₂_recon = -0.4259 (target -0.4259)
+  -- π MOs contribute: λ₁_π=+0.0256  λ₂_π=-0.0145  δ_π = -0.0400
+  -- σ MOs contribute: λ₁_σ=-0.6306  λ₂_σ=-0.4114  δ_σ = 0.2192
+  Sum δ_π + δ_σ = 0.1792  vs δ_Bader = 0.1792  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[17] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1344
+    MO[16] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0909
+    MO[11] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0330
+    MO[10] (sigma)  ψ(BCP)=-0.083  contrib_to_δ = -0.0298
+    MO[13] (sigma)  ψ(BCP)=-0.181  contrib_to_δ = +0.0221
+    MO[14] (pi)  ψ(BCP)=+0.007  contrib_to_δ = -0.0203
+
+=== D4 Butadiene C1-C2 (terminal)  basis=6-31G* ===
+  BCP: t=0.321, ρ_BCP=0.2872
+  Hessian eigenvals: λ₁=-0.5955 λ₂=-0.1763 λ₃=+0.9063
+  ε = λ₁/λ₂-1 = 2.3775,  δ_Bader = λ₂-λ₁ = 0.4192
+  Reconstruction: λ₁_recon = -0.5954 (target -0.5955)
+                  λ₂_recon = -0.1763 (target -0.1763)
+  -- π MOs contribute: λ₁_π=+0.3516  λ₂_π=-0.0108  δ_π = -0.3624
+  -- σ MOs contribute: λ₁_σ=-0.9470  λ₂_σ=-0.1654  δ_σ = 0.7815
+  Sum δ_π + δ_σ = 0.4192  vs δ_Bader = 0.4192  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[13] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.3899
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.3228
+    MO[11] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1900
+    MO[12] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1508
+    MO[8] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0610
+    MO[9] (sigma)  ψ(BCP)=+0.156  contrib_to_δ = +0.0311
+
+=== D5 Butadiene C2-C3 (central)  basis=6-31G* ===
+  BCP: t=0.597, ρ_BCP=0.6082
+  Hessian eigenvals: λ₁=-1.2172 λ₂=-0.8659 λ₃=+1.8867
+  ε = λ₁/λ₂-1 = 0.4057,  δ_Bader = λ₂-λ₁ = 0.3513
+  Reconstruction: λ₁_recon = -1.2170 (target -1.2172)
+                  λ₂_recon = -0.8657 (target -0.8659)
+  -- π MOs contribute: λ₁_π=+1.2055  λ₂_π=-0.0015  δ_π = -1.2070
+  -- σ MOs contribute: λ₁_σ=-2.4226  λ₂_σ=-0.8642  δ_σ = 1.5583
+  Sum δ_π + δ_σ = 0.3513  vs δ_Bader = 0.3513  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[8] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +1.4541
+    MO[6] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -1.1409
+    MO[14] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.3197
+    MO[4] (sigma)  ψ(BCP)=+0.419  contrib_to_δ = -0.2252
+    MO[12] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0602
+    MO[13] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0222
+
+=== E1 Ethane C-C  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.2516
+  Hessian eigenvals: λ₁=-0.4772 λ₂=-0.4772 λ₃=+0.2982
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -0.4772 (target -0.4772)
+                  λ₂_recon = -0.4772 (target -0.4772)
+  -- π MOs contribute: λ₁_π=+0.0887  λ₂_π=+0.0000  δ_π = -0.0887
+  -- σ MOs contribute: λ₁_σ=-0.5659  λ₂_σ=-0.4772  δ_σ = 0.0887
+  Sum δ_π + δ_σ = 0.0000  vs δ_Bader = 0.0000  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[5] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0886
+    MO[4] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0886
+    MO[8] (sigma)  ψ(BCP)=-0.001  contrib_to_δ = +0.0002
+    MO[6] (sigma)  ψ(BCP)=+0.294  contrib_to_δ = -0.0001
+    MO[7] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0000
+    MO[2] (sigma)  ψ(BCP)=+0.199  contrib_to_δ = -0.0000
+
+=== E2 Methane C-H  basis=6-31G* ===
+  BCP: t=0.628, ρ_BCP=0.2734
+  Hessian eigenvals: λ₁=-0.7050 λ₂=-0.7050 λ₃=+0.4659
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -0.7050 (target -0.7050)
+                  λ₂_recon = -0.7050 (target -0.7050)
+  -- π MOs contribute: λ₁_π=+0.0000  λ₂_π=+0.0000  δ_π = 0.0000
+  -- σ MOs contribute: λ₁_σ=-0.7050  λ₂_σ=-0.7050  δ_σ = -0.0000
+  Sum δ_π + δ_σ = -0.0000  vs δ_Bader = 0.0000  (recon err -1865.2%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[3] (sigma)  ψ(BCP)=+0.176  contrib_to_δ = -0.0724
+    MO[4] (sigma)  ψ(BCP)=+0.094  contrib_to_δ = +0.0562
+    MO[2] (sigma)  ψ(BCP)=+0.248  contrib_to_δ = +0.0163
+    MO[1] (sigma)  ψ(BCP)=+0.188  contrib_to_δ = -0.0000
+    MO[0] (sigma)  ψ(BCP)=+0.007  contrib_to_δ = -0.0000
+
+=== E3 H2O O-H  basis=6-31G* ===
+  BCP: t=0.750, ρ_BCP=0.3621
+  Hessian eigenvals: λ₁=-1.4152 λ₂=-1.3590 λ₃=+1.1157
+  ε = λ₁/λ₂-1 = 0.0413,  δ_Bader = λ₂-λ₁ = 0.0562
+  Reconstruction: λ₁_recon = -1.4151 (target -1.4152)
+                  λ₂_recon = -1.3589 (target -1.3590)
+  -- π MOs contribute: λ₁_π=-0.0000  λ₂_π=-0.0000  δ_π = 0.0000
+  -- σ MOs contribute: λ₁_σ=-1.4150  λ₂_σ=-1.3589  δ_σ = 0.0562
+  Sum δ_π + δ_σ = 0.0562  vs δ_Bader = 0.0562  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[4] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.1684
+    MO[3] (sigma)  ψ(BCP)=-0.170  contrib_to_δ = -0.1061
+    MO[1] (sigma)  ψ(BCP)=+0.238  contrib_to_δ = -0.0178
+    MO[2] (sigma)  ψ(BCP)=+0.309  contrib_to_δ = +0.0118
+    MO[0] (pi)  ψ(BCP)=+0.002  contrib_to_δ = +0.0000
+
+=== F1 NH3 N-H  basis=6-31G* ===
+  BCP: t=0.740, ρ_BCP=0.3333
+  Hessian eigenvals: λ₁=-1.1995 λ₂=-1.1506 λ₃=+0.7084
+  ε = λ₁/λ₂-1 = 0.0425,  δ_Bader = λ₂-λ₁ = 0.0489
+  Reconstruction: λ₁_recon = -1.1994 (target -1.1995)
+                  λ₂_recon = -1.1505 (target -1.1506)
+  -- π MOs contribute: λ₁_π=+0.0623  λ₂_π=-0.0000  δ_π = -0.0623
+  -- σ MOs contribute: λ₁_σ=-1.2617  λ₂_σ=-1.1505  δ_σ = 0.1112
+  Sum δ_π + δ_σ = 0.0489  vs δ_Bader = 0.0489  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[4] (sigma)  ψ(BCP)=-0.072  contrib_to_δ = +0.1056
+    MO[3] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0623
+    MO[2] (sigma)  ψ(BCP)=+0.340  contrib_to_δ = +0.0112
+    MO[1] (sigma)  ψ(BCP)=+0.215  contrib_to_δ = -0.0056
+    MO[0] (sigma)  ψ(BCP)=+0.002  contrib_to_δ = +0.0000
+
+=== F2 N2F4 N-N  basis=6-31G* ===
+  BCP: t=0.505, ρ_BCP=0.3307
+  Hessian eigenvals: λ₁=-0.9119 λ₂=-0.5410 λ₃=+0.7082
+  ε = λ₁/λ₂-1 = 0.6856,  δ_Bader = λ₂-λ₁ = 0.3709
+  Reconstruction: λ₁_recon = -0.9119 (target -0.9119)
+                  λ₂_recon = -0.5410 (target -0.5410)
+  -- π MOs contribute: λ₁_π=+0.0749  λ₂_π=-0.0281  δ_π = -0.1031
+  -- σ MOs contribute: λ₁_σ=-0.9868  λ₂_σ=-0.5128  δ_σ = 0.4740
+  Sum δ_π + δ_σ = 0.3709  vs δ_Bader = 0.3709  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[23] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.2796
+    MO[22] (sigma)  ψ(BCP)=-0.246  contrib_to_δ = +0.1114
+    MO[14] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0918
+    MO[13] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.0686
+    MO[6] (pi)  ψ(BCP)=+0.076  contrib_to_δ = -0.0184
+    MO[8] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0131
+
+=== F3 BH3 B-H  basis=6-31G* ===
+  BCP: t=0.434, ρ_BCP=0.1832
+  Hessian eigenvals: λ₁=-0.4476 λ₂=-0.3497 λ₃=+0.4386
+  ε = λ₁/λ₂-1 = 0.2800,  δ_Bader = λ₂-λ₁ = 0.0979
+  Reconstruction: λ₁_recon = -0.4476 (target -0.4476)
+                  λ₂_recon = -0.3497 (target -0.3497)
+  -- π MOs contribute: λ₁_π=+0.0000  λ₂_π=+0.0000  δ_π = 0.0000
+  -- σ MOs contribute: λ₁_σ=-0.4476  λ₂_σ=-0.3497  δ_σ = 0.0979
+  Sum δ_π + δ_σ = 0.0979  vs δ_Bader = 0.0979  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[2] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.1067
+    MO[3] (sigma)  ψ(BCP)=+0.248  contrib_to_δ = -0.0361
+    MO[1] (sigma)  ψ(BCP)=+0.159  contrib_to_δ = +0.0271
+    MO[0] (sigma)  ψ(BCP)=+0.067  contrib_to_δ = +0.0003
+
+=== G1 Allene C=C  basis=6-31G* ===
+  BCP: t=0.638, ρ_BCP=0.3525
+  Hessian eigenvals: λ₁=-0.7544 λ₂=-0.4919 λ₃=+0.1960
+  ε = λ₁/λ₂-1 = 0.5336,  δ_Bader = λ₂-λ₁ = 0.2625
+  Reconstruction: λ₁_recon = -0.7544 (target -0.7544)
+                  λ₂_recon = -0.4919 (target -0.4919)
+  -- π MOs contribute: λ₁_π=+0.2571  λ₂_π=-0.0725  δ_π = -0.3296
+  -- σ MOs contribute: λ₁_σ=-1.0114  λ₂_σ=-0.4193  δ_σ = 0.5921
+  Sum δ_π + δ_σ = 0.2625  vs δ_Bader = 0.2625  (recon err -0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[10] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.5034
+    MO[8] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.3295
+    MO[6] (sigma)  ψ(BCP)=+0.254  contrib_to_δ = +0.0417
+    MO[9] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.0414
+    MO[5] (sigma)  ψ(BCP)=+0.138  contrib_to_δ = +0.0274
+    MO[4] (sigma)  ψ(BCP)=+0.204  contrib_to_δ = -0.0262
+
+=== G2 Ketene C=C  basis=6-31G* ===
+  BCP: t=0.332, ρ_BCP=0.3225
+  Hessian eigenvals: λ₁=-0.6691 λ₂=-0.3186 λ₃=+0.8267
+  ε = λ₁/λ₂-1 = 1.1005,  δ_Bader = λ₂-λ₁ = 0.3506
+  Reconstruction: λ₁_recon = -0.6691 (target -0.6691)
+                  λ₂_recon = -0.3185 (target -0.3186)
+  -- π MOs contribute: λ₁_π=+0.3592  λ₂_π=-0.0481  δ_π = -0.4072
+  -- σ MOs contribute: λ₁_σ=-1.0283  λ₂_σ=-0.2704  δ_σ = 0.7578
+  Sum δ_π + δ_σ = 0.3506  vs δ_Bader = 0.3506  (recon err +0.0%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[10] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.6666
+    MO[7] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.2786
+    MO[9] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.1378
+    MO[8] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0765
+    MO[6] (sigma)  ψ(BCP)=+0.239  contrib_to_δ = +0.0564
+    MO[4] (sigma)  ψ(BCP)=+0.307  contrib_to_δ = -0.0414
+
+=== G3 CO2 C=O  basis=6-31G* ===
+  BCP: t=0.332, ρ_BCP=0.4589
+  Hessian eigenvals: λ₁=-1.2731 λ₂=-1.2731 λ₃=+3.1721
+  ε = λ₁/λ₂-1 = 0.0000,  δ_Bader = λ₂-λ₁ = 0.0000
+  Reconstruction: λ₁_recon = -1.2729 (target -1.2731)
+                  λ₂_recon = -1.2729 (target -1.2731)
+  -- π MOs contribute: λ₁_π=+0.6753  λ₂_π=+0.0578  δ_π = -0.6176
+  -- σ MOs contribute: λ₁_σ=-1.9483  λ₂_σ=-1.3307  δ_σ = 0.6176
+  Sum δ_π + δ_σ = -0.0000  vs δ_Bader = 0.0000  (recon err -15279.6%)
+  Top MO contributions to (λ₂-λ₁):
+    MO[7] (pi)  ψ(BCP)=+0.000  contrib_to_δ = -0.5892
+    MO[8] (sigma)  ψ(BCP)=-0.000  contrib_to_δ = +0.5892
+    MO[9] (sigma)  ψ(BCP)=+0.000  contrib_to_δ = +0.0283
+    MO[10] (pi)  ψ(BCP)=-0.000  contrib_to_δ = -0.0283
+    MO[6] (sigma)  ψ(BCP)=-0.263  contrib_to_δ = -0.0000
+    MO[0] (pi)  ψ(BCP)=+0.001  contrib_to_δ = +0.0000
+
+========================================================================================================================
+结论汇总
+========================================================================================================================
+#     分子                               类          ε actual   δ_total   δ_σ       δ_π       符号正确?
+------------------------------------------------------------------------------------------------------------------------
+A1 E  A1 Ethylene C=C                  homo σ+π     +0.4468   +0.2405  +0.3883  -0.1478  ✓
+A2 N  A2 N2H2 trans N=N                homo σ+π     +0.1861   +0.1806  +0.6228  -0.4421  ✓
+A3 P  A3 P2H2 trans P=P                homo σ+π     +0.3618   +0.0447  +0.0731  -0.0285  ✓
+A4 I  A4 Isobutylene C=C               homo σ+π     +0.4681   +0.2385  +0.3838  -0.1454  ✓
+B1 H  B1 H2CO C=O                      het σ+π      +0.0888   +0.0986  +0.7679  -0.6693  ✓
+B2 H  B2 H2CNH C=N                     het σ+π      +0.0241   +0.0142  +0.0170  -0.0029  border
+B3 A  B3 Acetone C=O                   het σ+π      +0.0644   +0.0696  +0.6984  -0.6288  ✓
+C1 N  C1 N2 N≡N                        triple       +0.0000   +0.0000  +0.1038  -0.1038  DEGEN
+C2 H  C2 HCCH C≡C                      triple       +0.0000   +0.0000  +0.5094  -0.5094  DEGEN
+C3 H  C3 HCN C≡N                       triple       +0.0000   +0.0000  +0.9027  -0.9027  DEGEN
+C4 C  C4 CO C≡O                        triple       +0.0000   +0.0000  +0.2633  -0.2633  DEGEN
+D1 B  D1 Benzene C-C                   aromatic     +0.2316   +0.1302  +0.1784  -0.0481  ✓
+D2 P  D2 Pyridine C2-C3                aromatic     +0.2393   +0.1333  +0.1769  -0.0437  ✓
+D3 F  D3 Furan C2-C3                   aromatic     +0.4207   +0.1792  +0.2192  -0.0400  ✓
+D4 B  D4 Butadiene C1-C2 (terminal)    conjugated   +2.3775   +0.4192  +0.7815  -0.3624  ✓
+D5 B  D5 Butadiene C2-C3 (central)     conjugated   +0.4057   +0.3513  +1.5583  -1.2070  ✓
+E1 E  E1 Ethane C-C                    pure σ       +0.0000   +0.0000  +0.0887  -0.0887  DEGEN
+E2 M  E2 Methane C-H                   pure σ       +0.0000   +0.0000  -0.0000  +0.0000  DEGEN
+E3 H  E3 H2O O-H                       pure σ       +0.0413   +0.0562  +0.0562  +0.0000  border
+F1 N  F1 NH3 N-H                       LP-σ         +0.0425   +0.0489  +0.1112  -0.0623  border
+F2 N  F2 N2F4 N-N                      LP-σ         +0.6856   +0.3709  +0.4740  -0.1031  ✓
+F3 B  F3 BH3 B-H                       empty p      +0.2800   +0.0979  +0.0979  +0.0000  ✗
+G1 A  G1 Allene C=C                    cumul        +0.5336   +0.2625  +0.5921  -0.3296  ✓
+G2 K  G2 Ketene C=C                    cumul        +1.1005   +0.3506  +0.7578  -0.4072  ✓
+G3 C  G3 CO2 C=O                       linear       +0.0000   +0.0000  +0.6176  -0.6176  DEGEN
+
+========================================================================================================================
+假设 H1 (δ_σ>0, δ_π<0 在 ε>0 系统中): 14/15 通过
+假设 H2 (退化系统中 δ_π+δ_σ ≈ 0): 6/7 通过
+========================================================================================================================

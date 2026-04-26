@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software/data, please cite it as below."
+title: "BCP Hessian MO Decomposition: Algorithm and 102-Compound Benchmark"
+type: software
+authors:
+  - family-names: "Zhou"
+    given-names: "Jian"
+    affiliation: "JZ Institute of Science"
+    email: "jack@jzis.org"
+    orcid: "https://orcid.org/0009-0000-3536-9500"
+date-released: "2026-04-26"
+url: "https://github.com/JackZH26/BCP-Hessian-MO-Decomposition"
+repository-code: "https://github.com/JackZH26/BCP-Hessian-MO-Decomposition"
+license: CC-BY-4.0
+keywords:
+  - "QTAIM"
+  - "bond ellipticity"
+  - "molecular orbital decomposition"
+  - "electron density"
+  - "PySCF"
+  - "Hessian eigenvalues"
+  - "bond critical point"
