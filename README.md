@@ -2,8 +2,10 @@
 
 > Per-Molecular-Orbital Decomposition of the QTAIM Bond Critical Point (BCP) Density Hessian: Algorithm and 102-Compound Benchmark Data
 
+[![Tests](https://github.com/JackZH26/BCP-Hessian-MO-Decomposition/actions/workflows/tests.yml/badge.svg)](https://github.com/JackZH26/BCP-Hessian-MO-Decomposition/actions/workflows/tests.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://img.shields.io/badge/Figshare-10.6084%2Fm9.figshare.32088900-blue)](https://doi.org/10.6084/m9.figshare.32088900)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 **Author:** Jian Zhou, Founder & Director, JZ Institute of Science (JZIS)
 **Email:** jack@jzis.org
@@ -35,6 +37,26 @@ pip install pyscf numpy scipy
 cd src
 python sigma_pi_decomposition.py
 ```
+
+---
+
+## Testing
+
+The project includes 19 unit tests covering:
+- Mathematical reconstruction identity (5 tests)
+- σ/π sign rule on paradigm cases (4 tests)
+- Degenerate system cancellation (2 tests)
+- σ-only system handling (1 test)
+- MO classification heuristic (3 tests)
+- Result data structure (3 tests)
+- Numerical stability (1 test)
+
+Run all tests:
+```bash
+pytest tests/
+```
+
+Total runtime: ~3 seconds.
 
 ---
 
