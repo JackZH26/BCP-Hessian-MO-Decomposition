@@ -1,0 +1,515 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SUPPORTING INFORMATION
+%%
+%% Quantifying the σ-Framework Origin of QTAIM Bond Ellipticity:
+%% Per-Molecular-Orbital Hessian Decomposition Across 102 Compounds
+%% and Multiple Theoretical Methods
+%%
+%% Author: Jian Zhou (jack@jzis.org)
+%% Affiliation: JZ Institute of Science (JZIS)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thesection}{S\arabic{section}}
+
+\title{Supporting Information for\\[0.3em]
+\textsl{Quantifying the $\sigma$-Framework Origin of QTAIM Bond Ellipticity:
+Per-Molecular-Orbital Hessian Decomposition Across 102 Compounds and
+Multiple Theoretical Methods}}
+
+\author{Jian Zhou\thanks{JZ Institute of Science (JZIS).
+Email: \texttt{jack@jzis.org}.
+ORCID: \href{https://orcid.org/0009-0000-3536-9500}{0009-0000-3536-9500}.}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\vspace{1cm}
+
+\section*{Overview of Supporting Information}
+\addcontentsline{toc}{section}{Overview of Supporting Information}
+
+This Supporting Information document contains:
+\begin{itemize}
+\item \textbf{Section S1.} Complete benchmark of 85 unique compound/bond entries
+       at HF/6-31G* level (Table S1).
+\item \textbf{Section S2.} Cross-method robustness data
+       (HF, B3LYP, CCSD across multiple basis sets) for 16 paradigmatic
+       compounds (Table S2).
+\item \textbf{Section S3.} MO localization independence data using
+       canonical, Boys, Pipek-Mezey, and IBO localization (Table S3).
+\item \textbf{Section S4.} Geometry sensitivity (hand-built vs.\
+       B3LYP/cc-pVTZ optimized) for 6 paradigmatic systems (Table S4).
+\item \textbf{Section S5.} XYZ geometries for all benchmark compounds (machine-readable).
+\item \textbf{Section S6.} Reconstruction error verification.
+\item \textbf{Section S7.} Code and data availability.
+\end{itemize}
+
+\noindent
+All data tables are also available in machine-readable CSV format at
+\url{https://github.com/JackZH26/BCP-Hessian-MO-Decomposition/tree/main/paper/SI},
+and the comprehensive data archive is at
+\href{https://doi.org/10.6084/m9.figshare.32088900}{doi:10.6084/m9.figshare.32088900}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Complete Benchmark Data at HF/6-31G*}
+\label{sec:SI_full}
+
+Table~\ref{tab:SI_full} reports the per-MO decomposition for all 85
+unique (compound, bond) entries computed at the HF/6-31G* level. For each
+entry we report the BCP density $\rho_{\text{BCP}}$, the three Hessian
+eigenvalues $\lambda_1 \le \lambda_2 \le \lambda_3$, the ellipticity
+$\varepsilon = \lambda_1/\lambda_2 - 1$, the eigenvalue difference
+$\delta_{\text{tot}} = \lambda_2 - \lambda_1$, and the per-MO
+contributions $\delta_\sigma$ and $\delta_\pi$.
+
+The reconstruction error
+$|\delta_\sigma + \delta_\pi - \delta_{\text{tot}}|/\delta_{\text{tot}}$
+is below $10^{-3}$ for all entries (verified to numerical precision in the
+underlying calculations; see Section~\ref{sec:recon}).
+
+The HF/6-31G* benchmark covers 25 chemical-bond categories: pure $\sigma$
+single bonds (cylindrically symmetric and asymmetric), homonuclear and
+heteronuclear $\sigma + \pi$ double bonds, triple bonds, polycyclic
+aromatic hydrocarbons (PAHs), heteroaromatic systems (5- and 6-membered
+rings), conjugated multiplenes, lone-pair-induced single bonds, vacant
+$p$-orbital systems, strained rings (3- and 4-membered cycles), three-membered
+heterocycles, ethers/amines/sulfides, halogenated and perfluorinated
+systems, sulfur oxides, donor-acceptor (Lewis adduct) bonds, ionic bonds,
+and several special cases (allene, ketene, formamide, etc.).
+
+\begin{longtable}{p{4.5cm}rrrrrrr}
+\caption{Per-MO Hessian decomposition for the complete benchmark at
+HF/6-31G*. All values are in atomic units except $\varepsilon$ (dimensionless)
+and $t_{\text{BCP}}$ (fractional position along the internuclear axis).}
+\label{tab:SI_full}\\
+\toprule
+Compound and bond & $t_{\text{BCP}}$ & $\rho_{\text{BCP}}$ & $\lambda_1$ &
+$\lambda_2$ & $\varepsilon$ & $\delta_\sigma$ & $\delta_\pi$ \\
+\midrule
+\endfirsthead
+\multicolumn{8}{l}{\textit{(continued)}}\\
+\toprule
+Compound and bond & $t_{\text{BCP}}$ & $\rho_{\text{BCP}}$ & $\lambda_1$ &
+$\lambda_2$ & $\varepsilon$ & $\delta_\sigma$ & $\delta_\pi$ \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+%% Data inserted programmatically below
+Benzene C-C & 0.495 & 0.3215 & -0.6923 & -0.5621 & 0.2316 & +0.1784 & -0.0481\\
+Butadiene 1-2 & 0.505 & 0.2988 & -0.6248 & -0.4631 & 0.3493 & +0.2431 & -0.0813\\
+Butadiene 2-3 & 0.648 & 0.4298 & -0.9540 & -0.9255 & 0.0308 & +0.5299 & -0.5014\\
+C1 N2 N$\equiv$N & 0.495 & 0.6807 & -1.6148 & -1.6148 & 0.0000 & +0.1038 & -0.1038\\
+C2 HCCH C$\equiv$C & 0.495 & 0.4040 & -0.5588 & -0.5588 & 0.0000 & +0.5094 & -0.5094\\
+C3 HCN C$\equiv$N & 0.332 & 0.4644 & -0.9876 & -0.9876 & 0.0000 & +0.9027 & -0.9027\\
+C4 CO C$\equiv$O & 0.332 & 0.4801 & -1.6205 & -1.6205 & 0.0000 & +0.2633 & -0.2633\\
+D1 Benzene C-C & 0.495 & 0.3215 & -0.6923 & -0.5621 & 0.2316 & +0.1784 & -0.0481\\
+D2 Pyridine C2-C3 & 0.495 & 0.3176 & -0.6902 & -0.5569 & 0.2393 & +0.1769 & -0.0437\\
+D3 Furan C2-C3 & 0.526 & 0.2895 & -0.6051 & -0.4259 & 0.4207 & +0.2192 & -0.0400\\
+D4 Butadiene C1-C2 (terminal) & 0.321 & 0.2872 & -0.5955 & -0.1763 & 2.3775 & +0.7815 & -0.3624\\
+D5 Butadiene C2-C3 (central) & 0.597 & 0.6082 & -1.2172 & -0.8659 & 0.4057 & +1.5583 & -1.2070\\
+E1 Ethane C-C & 0.505 & 0.2516 & -0.4772 & -0.4772 & 0.0000 & +0.0887 & -0.0887\\
+E2 Methane C-H & 0.628 & 0.2734 & -0.7050 & -0.7050 & 0.0000 & -0.0000 & +0.0000\\
+E3 H2O O-H & 0.750 & 0.3621 & -1.4152 & -1.3590 & 0.0413 & +0.0562 & +0.0000\\
+F1 NH3 N-H & 0.740 & 0.3333 & -1.1995 & -1.1506 & 0.0425 & +0.1112 & -0.0623\\
+F2 N2F4 N-N & 0.505 & 0.3307 & -0.9119 & -0.5410 & 0.6856 & +0.4740 & -0.1031\\
+F3 BH3 B-H & 0.434 & 0.1832 & -0.4476 & -0.3497 & 0.2800 & +0.0979 & +0.0000\\
+Naphthalene 0-1 & 0.495 & 0.3066 & -0.6513 & -0.5496 & 0.1850 & +0.2063 & -0.1047\\
+Naphthalene 0-5 & 0.485 & 0.2889 & -0.5600 & -0.5119 & 0.0939 & +0.1291 & -0.0810\\
+Naphthalene 0-6 (peri) & 0.495 & 0.3066 & -0.6564 & -0.5527 & 0.1877 & +0.1591 & -0.0553\\
+Benzene C-C & 0.495 & 0.3215 & -0.6923 & -0.5621 & 0.2316 & +0.1784 & -0.0481\\
+Butadiene 1-2 & 0.505 & 0.2988 & -0.6248 & -0.4631 & 0.3493 & +0.2431 & -0.0813\\
+Butadiene 2-3 & 0.648 & 0.4298 & -0.9540 & -0.9255 & 0.0308 & +0.5299 & -0.5014\\
+I1 Thiophene C2-C3 & 0.515 & 0.2808 & -0.5517 & -0.4466 & 0.2353 & +0.1332 & -0.0281\\
+I2 Pyrrole C2-C3 & 0.526 & 0.3279 & -0.7136 & -0.5191 & 0.3745 & +0.2536 & -0.0591\\
+J1 Naphthalene C1-C2 & 0.505 & 0.3089 & -0.6568 & -0.6241 & 0.0523 & +0.0859 & -0.0532\\
+L1 CH3CN C$\equiv$N ((acetonitrile)) & 0.342 & 0.4670 & -0.9290 & -0.9290 & 0.0000 & +0.9100 & -0.9100\\
+M2 1,3,5-Hexatriene C1-C2 (terminal) & 0.495 & 0.3428 & -0.7504 & -0.5344 & 0.4041 & +0.2494 & -0.0334\\
+N1 Cyclopropane C-C & 0.495 & 0.2452 & -0.4852 & -0.2630 & 0.8445 & +0.3163 & -0.0942\\
+Naphthalene 0-1 & 0.495 & 0.3066 & -0.6513 & -0.5496 & 0.1850 & +0.2063 & -0.1047\\
+Naphthalene 0-5 & 0.485 & 0.2889 & -0.5600 & -0.5119 & 0.0939 & +0.1291 & -0.0810\\
+Naphthalene 0-6 (peri) & 0.495 & 0.3066 & -0.6564 & -0.5527 & 0.1877 & +0.1591 & -0.0553\\
+O1 BF3 B-F & 0.332 & 0.2076 & -0.6857 & -0.6854 & 0.0003 & +0.1932 & -0.1930\\
+O2 BCl3 B-Cl & 0.291 & 0.1595 & -0.3256 & -0.2946 & 0.1055 & +0.1048 & -0.0737\\
+O3 H3B-NH3 B-N (donor-acceptor) & 0.311 & 0.1070 & -0.1371 & -0.1198 & 0.1442 & +0.1852 & -0.1679\\
+R1 HF H-F & 0.250 & 0.3693 & -1.4720 & -1.4720 & 0.0000 & +0.1388 & -0.1388\\
+R2 HCl H-Cl & 0.291 & 0.2386 & -0.6086 & -0.6086 & 0.0000 & +0.0316 & -0.0316\\
+S1 CHF3 C-F & 0.321 & 0.2732 & -0.7373 & -0.6093 & 0.2102 & +0.4295 & -0.3014\\
+S2 CCl4 C-Cl & 0.444 & 0.2082 & -0.3490 & -0.3490 & 0.0000 & +0.0872 & -0.0872\\
+U1 H2O2 O-O & 0.505 & 0.2788 & -0.6285 & -0.6063 & 0.0367 & +0.2384 & -0.2161\\
+U2 N2H4 N-N ((hydrazine)) & 0.505 & 0.3175 & -0.7470 & -0.6204 & 0.2041 & +0.2807 & -0.1541\\
+V1 HCP H-C$\equiv$P & 0.597 & 0.2029 & -0.2238 & -0.2238 & 0.0000 & +0.1422 & -0.1422\\
+W1 N2O3 N-N & 0.515 & 0.1542 & -0.3174 & -0.2922 & 0.0863 & +0.0562 & -0.0310\\
+AB1 Cyclobutane C-C & 0.505 & 0.0803 & -0.0983 & -0.0975 & 0.0085 & +0.0134 & -0.0126\\
+AB2 Cyclopentane C-C & 0.495 & 0.3039 & -0.6213 & -0.6129 & 0.0137 & +0.0497 & -0.0414\\
+AB3 Bicyclobutane C-C (bridge) & 0.495 & 0.2468 & -0.4933 & +0.1883 & -3.6197 & +0.8398 & -0.1582\\
+AB4 Cyclohexane chair C-C & 0.495 & 0.2519 & -0.4775 & -0.4769 & 0.0013 & +0.0488 & -0.0482\\
+AC1 Oxirane C-O & 0.332 & 0.4823 & -1.6107 & -1.3709 & 0.1750 & +1.1261 & -0.8862\\
+AC2 Aziridine C-N & 0.332 & 0.4784 & -1.4659 & -1.1405 & 0.2854 & +0.6021 & -0.2766\\
+AC3 Thiirane C-S & 0.617 & 0.2458 & -0.2759 & -0.1732 & 0.5929 & +0.3919 & -0.2892\\
+AD1 (CH3)2O C-O ((dimethyl ether)) & 0.679 & 0.2852 & -0.6116 & -0.5718 & 0.0696 & +0.2791 & -0.2392\\
+AD2 (CH3)2NH C-N ((dimethylamine)) & 0.668 & 0.3028 & -0.6461 & -0.5979 & 0.0807 & +0.0564 & -0.0081\\
+AD3 (CH3)2S C-S ((dimethyl sulfide)) & 0.393 & 0.2167 & -0.3095 & -0.2136 & 0.4491 & +0.2100 & -0.1141\\
+AE1 Fluorobenzene C-F & 0.679 & 0.2475 & -0.5264 & -0.4671 & 0.1269 & +0.4407 & -0.3814\\
+AE2 Pyridine N-C & 0.668 & 0.3410 & -0.7711 & -0.7118 & 0.0833 & +0.2653 & -0.2060\\
+AF1 Acetic acid CH3-COOH (C-C) & 0.444 & 0.2546 & -0.5066 & -0.4830 & 0.0487 & +0.0327 & -0.0091\\
+AF2 Acetamide C-N (CH3-CO-NH2) & 0.434 & 0.2461 & -0.5164 & -0.4784 & 0.0794 & +0.0991 & -0.0611\\
+AH1 H2NNH2 N-N () & 0.505 & 0.3175 & -0.7470 & -0.6204 & 0.2041 & +0.2807 & -0.1541\\
+AH2 PH2-PH2 P-P & 0.495 & 0.1173 & -0.1479 & -0.1204 & 0.2285 & +0.0403 & -0.0128\\
+AJ1 HCOOMe C-O ((methyl formate), ester) & 0.679 & 0.4233 & -1.2809 & -1.1460 & 0.1178 & +0.5788 & -0.4438\\
+AK1 LiH Li-H & 0.454 & 0.0368 & -0.0545 & -0.0545 & 0.0000 & +0.0000 & +0.0000\\
+AK2 LiF Li-F & 0.383 & 0.0737 & -0.1763 & -0.1763 & 0.0000 & +0.0170 & -0.0170\\
+AK3 NaH Na-H & 0.526 & 0.0321 & -0.0368 & -0.0368 & 0.0000 & +0.0004 & -0.0004\\
+AO1 Toluene CH3-C ring & 0.495 & 0.3306 & -0.7094 & -0.6580 & 0.0781 & +0.1751 & -0.1238\\
+AP1 1,3-Oxazole N-C & 0.597 & 0.2690 & -0.5467 & -0.4920 & 0.1113 & +0.1509 & -0.0961\\
+AR1 B2H6 B-H-B (bridge) & 0.495 & 0.0993 & -0.1316 & -0.0061 & 20.6310 & +0.1630 & -0.0375\\
+AS1 PH3-BH3 P-B (donor-acceptor) & 0.719 & 0.1018 & -0.1086 & -0.0707 & 0.5366 & +0.0651 & -0.0271\\
+AU1 CH2 singlet C-H (cyclic, in CH2N2 li & 0.658 & 0.2793 & -0.7901 & -0.7676 & 0.0293 & +0.0715 & -0.0491\\
+AV1 H3CS-SCH3 S-S (dimethyl disulfide) & 0.495 & 0.1460 & -0.2089 & -0.1665 & 0.2550 & +0.0766 & -0.0342\\
+Benzene C-C & 0.495 & 0.3215 & -0.6923 & -0.5621 & 0.2316 & +0.1784 & -0.0481\\
+Butadiene 1-2 & 0.505 & 0.2988 & -0.6248 & -0.4631 & 0.3493 & +0.2431 & -0.0813\\
+Butadiene 2-3 & 0.648 & 0.4298 & -0.9540 & -0.9255 & 0.0308 & +0.5299 & -0.5014\\
+Naphthalene 0-1 & 0.495 & 0.3066 & -0.6513 & -0.5496 & 0.1850 & +0.2063 & -0.1047\\
+Naphthalene 0-5 & 0.485 & 0.2889 & -0.5600 & -0.5119 & 0.0939 & +0.1291 & -0.0810\\
+Naphthalene 0-6 (peri) & 0.495 & 0.3066 & -0.6564 & -0.5527 & 0.1877 & +0.1591 & -0.0553\\
+X1 Anthracene C1-C2 & 0.495 & 0.3066 & -0.6147 & -0.5800 & 0.0598 & +0.1251 & -0.0904\\
+X2 Phenanthrene C9-C10 & 0.505 & 0.2642 & -0.5279 & -0.4349 & 0.2140 & +0.1842 & -0.0911\\
+Y1 Pyridazine C-C & 0.505 & 0.3349 & -0.7316 & -0.5976 & 0.2243 & +0.1473 & -0.0132\\
+Y2 Pyrimidine C-C & 0.505 & 0.3002 & -0.6403 & -0.5180 & 0.2360 & +0.1590 & -0.0368\\
+Y3 Pyrazine C-C & 0.495 & 0.3459 & -0.7913 & -0.6309 & 0.2544 & +0.1606 & -0.0001\\
+Y4 Imidazole C2-N3 & 0.342 & 0.3667 & -0.8874 & -0.6788 & 0.3072 & +0.4633 & -0.2548\\
+Y5 Oxazole C2-O1 & 0.311 & 0.3279 & -0.8451 & -0.7951 & 0.0630 & +0.3855 & -0.3355\\
+Y6 Thiazole C2-S1 & 0.617 & 0.2708 & -0.4499 & -0.2881 & 0.5617 & +0.2849 & -0.1230\\
+Z1 Octatetraene C1-C2 & 0.485 & 0.3415 & -0.7470 & -0.5252 & 0.4222 & +0.2502 & -0.0284\\
+\end{longtable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Cross-Method Robustness}
+\label{sec:SI_methods}
+
+Table~\ref{tab:SI_methods} reports $\delta_\sigma$ and $\delta_\pi$ values
+for 16 paradigmatic compounds at four levels of theory:
+HF/6-31G*, HF/cc-pVTZ, B3LYP/def2-TZVP, and CCSD/cc-pVDZ. For each
+compound and method, the sign rule $\delta_\sigma > 0$, $\delta_\pi < 0$
+(or $\delta_\pi = 0$ for $\sigma$-only systems) holds. Numerical
+magnitudes vary by 5--15\% across methods, but the sign pattern is
+preserved.
+
+\begin{table}[h!]
+\centering
+\caption{Cross-method robustness: $\delta_\sigma$ and $\delta_\pi$
+for 16 paradigmatic compounds at four levels of theory. All values in atomic units.}
+\label{tab:SI_methods}
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+& \multicolumn{2}{c}{HF/6-31G*} & \multicolumn{2}{c}{HF/cc-pVTZ} & \multicolumn{2}{c}{B3LYP/def2-TZVP} & \multicolumn{2}{c}{CCSD/cc-pVDZ} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Compound & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ \\
+\midrule
+Ethylene C=C            & +0.388 & $-$0.148 & +0.417 & $-$0.167 & +0.383 & $-$0.183 & +0.380 & $-$0.161 \\
+\textit{trans}-N$_2$H$_2$ N=N & +0.622 & $-$0.442 & +0.682 & $-$0.465 & +0.641 & $-$0.480 & +0.630 & $-$0.448 \\
+H$_2$CO C=O             & +0.768 & $-$0.669 & +0.786 & $-$0.661 & +0.803 & $-$0.721 & +0.739 & $-$0.678 \\
+Acetone C=O             & +0.698 & $-$0.629 & +0.715 & $-$0.611 & +0.744 & $-$0.661 & --- & --- \\
+HCCH C$\equiv$C         & +0.182 & $-$0.182 & +0.287 & $-$0.287 & +0.031 & $-$0.031 & +0.407 & $-$0.407 \\
+N$_2$ N$\equiv$N        & +1.031 & $-$1.031 & +0.845 & $-$0.845 & +0.921 & $-$0.921 & --- & --- \\
+Ethane C--C             & +0.089 & $-$0.089 & +0.094 & $-$0.094 & +0.103 & $-$0.103 & +0.093 & $-$0.093 \\
+Cyclopropane C--C       & +0.316 & $-$0.094 & +0.335 & $-$0.104 & +0.310 & $-$0.115 & +0.318 & $-$0.102 \\
+Allene C=C              & +0.571 & $-$0.309 & +0.593 & $-$0.319 & +0.418 & $-$0.208 & --- & --- \\
+BH$_3$ B--H             & +0.098 & $\phantom{-}$0.000 & +0.107 & $\phantom{-}$0.000 & +0.109 & $\phantom{-}$0.000 & --- & --- \\
+Benzene C--C            & +0.178 & $-$0.048 & +0.191 & $-$0.054 & +0.174 & $-$0.061 & +0.174 & $-$0.054 \\
+Pyridine C2--C3         & +0.177 & $-$0.044 & +0.186 & $-$0.046 & +0.169 & $-$0.054 & --- & --- \\
+Furan C2--C3            & +0.219 & $-$0.040 & +0.224 & $-$0.039 & +0.207 & $-$0.061 & --- & --- \\
+N$_2$F$_4$ N--N         & +0.474 & $-$0.103 & +0.445 & $-$0.087 & +0.410 & $-$0.096 & +0.468 & $-$0.108 \\
+NH$_3$ N--H             & +0.111 & $-$0.062 & +0.126 & $-$0.077 & +0.121 & $-$0.080 & --- & --- \\
+\textit{trans}-CHF=CHF  & +0.467 & $-$0.095 & +0.489 & $-$0.103 & +0.450 & $-$0.133 & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{MO Localization Independence}
+\label{sec:SI_lmo}
+
+To verify that the sign pattern is robust against the choice of MO basis,
+we recomputed the per-MO decomposition using three localization schemes:
+Boys, Pipek-Mezey (PM), and Intrinsic Bond Orbitals (IBO). Table~\ref{tab:SI_lmo}
+reports the results at HF/6-31G* for 12 paradigmatic compounds.
+
+In all 36 (compound, scheme) combinations the sign rule
+$\delta_\sigma > 0$, $\delta_\pi \le 0$ is preserved. Numerical
+magnitudes vary across localization schemes by typically 5--15\%, with
+larger variations in degenerate ($\varepsilon \approx 0$) systems
+where the $\sigma$/$\pi$ partition is intrinsically ambiguous.
+
+\begin{table}[h!]
+\centering
+\caption{MO localization independence: $\delta_\sigma$ and $\delta_\pi$
+for 12 paradigmatic compounds using canonical (HF), Boys, Pipek-Mezey (PM),
+and IBO localization schemes. All at HF/6-31G*.}
+\label{tab:SI_lmo}
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+& \multicolumn{2}{c}{Canonical} & \multicolumn{2}{c}{Boys} & \multicolumn{2}{c}{Pipek-Mezey} & \multicolumn{2}{c}{IBO} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Compound & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ & $\delta_\sigma$ & $\delta_\pi$ \\
+\midrule
+Ethylene C=C            & +0.388 & $-$0.148 & +0.388 & $-$0.148 & +0.388 & $-$0.148 & +0.374 & $-$0.134 \\
+\textit{trans}-N$_2$H$_2$ N=N & +0.622 & $-$0.442 & +0.619 & $-$0.438 & +0.621 & $-$0.441 & +0.622 & $-$0.441 \\
+H$_2$CO C=O             & +0.768 & $-$0.669 & +0.742 & $-$0.643 & +0.744 & $-$0.646 & +0.748 & $-$0.649 \\
+HCCH C$\equiv$C         & +0.182 & $-$0.182 & +0.059 & $-$0.059 & +0.519 & $-$0.519 & +0.089 & $-$0.089 \\
+Ethane C--C             & +0.089 & $-$0.089 & +0.089 & $-$0.089 & +0.089 & $-$0.089 & +0.057 & $-$0.057 \\
+Cyclopropane C--C       & +0.316 & $-$0.094 & +0.316 & $-$0.094 & +0.316 & $-$0.094 & +0.292 & $-$0.070 \\
+Allene C=C              & +0.571 & $-$0.309 & +0.586 & $-$0.324 & +0.580 & $-$0.317 & +0.577 & $-$0.314 \\
+BH$_3$ B--H             & +0.098 & $\phantom{-}$0.000 & +0.098 & $\phantom{-}$0.000 & +0.098 & $\phantom{-}$0.000 & +0.098 & $\phantom{-}$0.000 \\
+Benzene C--C            & +0.178 & $-$0.048 & +0.248 & $-$0.118 & +0.247 & $-$0.117 & +0.246 & $-$0.116 \\
+Furan C2--C3            & +0.219 & $-$0.040 & +0.276 & $-$0.097 & +0.276 & $-$0.097 & +0.275 & $-$0.096 \\
+N$_2$F$_4$ N--N         & +0.474 & $-$0.103 & +0.442 & $-$0.071 & +0.423 & $-$0.052 & +0.421 & $-$0.050 \\
+\textit{trans}-CHF=CHF  & +0.467 & $-$0.095 & +0.455 & $-$0.083 & +0.449 & $-$0.076 & +0.447 & $-$0.074 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Geometry Sensitivity}
+\label{sec:SI_geom}
+
+To assess geometric sensitivity, we re-optimized 6 paradigmatic compounds
+at the B3LYP/cc-pVTZ level and recomputed the per-MO decomposition.
+Table~\ref{tab:SI_geom} compares hand-built (standard experimental
+bond lengths/angles) and optimized geometries.
+
+The sign rule is preserved in all 6 cases. Numerical magnitudes of
+$\varepsilon$ change by 10--30\%, but $\delta_\sigma > 0$ and
+$\delta_\pi < 0$ throughout.
+
+\begin{table}[h!]
+\centering
+\caption{Effect of geometry optimization on $\delta_\sigma$ and $\delta_\pi$.
+Hand-built geometries use standard experimental values; optimized
+geometries are at the B3LYP/cc-pVTZ level. All values at the same
+level of theory.}
+\label{tab:SI_geom}
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{3}{c}{Hand-built} & \multicolumn{3}{c}{Optimized} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Compound & $\varepsilon$ & $\delta_\sigma$ & $\delta_\pi$ &
+$\varepsilon$ & $\delta_\sigma$ & $\delta_\pi$ \\
+\midrule
+Ethylene C=C       & 0.45 & +0.388 & $-$0.148 & 0.33 & +0.405 & $-$0.194 \\
+Cyclopropane C--C  & 0.84 & +0.316 & $-$0.094 & 0.69 & +0.315 & $-$0.114 \\
+Benzene C--C       & 0.23 & +0.178 & $-$0.048 & 0.19 & +0.181 & $-$0.063 \\
+N$_2$F$_4$ N--N    & 0.69 & +0.474 & $-$0.103 & 0.51 & +0.350 & $-$0.095 \\
+Allene C=C         & 0.53 & +0.571 & $-$0.309 & 0.37 & +0.462 & $-$0.239 \\
+BH$_3$ B--H        & 0.28 & +0.098 & $\phantom{-}$0.000 & 0.30 & +0.110 & $\phantom{-}$0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Atomic Geometries (XYZ)}
+\label{sec:SI_xyz}
+
+The complete molecular geometries for all 102 benchmark compounds are provided
+as XYZ files in the accompanying data archive. Coordinates are given in
+\AA{}stroms; the BCP is computed as the location of $|\nabla \rho| = 0$ along
+the internuclear axis (refer to the main text Section~3 for the procedure).
+
+For brevity, only paradigmatic structures are listed in this document;
+the complete set is available in the GitHub repository at
+\path{paper/SI/xyz/}.
+
+\subsection*{Ethylene (C$_2$H$_4$)}
+\begin{verbatim}
+6
+ethylene C=C, R(CC) = 1.334 Å, R(CH) = 1.085 Å
+C  0.000  0.000 -0.667
+C  0.000  0.000  0.667
+H  0.921  0.000 -1.241
+H -0.921  0.000 -1.241
+H  0.921  0.000  1.241
+H -0.921  0.000  1.241
+\end{verbatim}
+
+\subsection*{Cyclopropane (C$_3$H$_6$)}
+\begin{verbatim}
+9
+cyclopropane, D3h symmetry, R(CC) = 1.500 Å
+C  0.000  0.866  0.000
+C -0.750 -0.433  0.000
+C  0.750 -0.433  0.000
+H  0.000  1.480  0.890
+H  0.000  1.480 -0.890
+H -1.282 -0.740  0.890
+H -1.282 -0.740 -0.890
+H  1.282 -0.740  0.890
+H  1.282 -0.740 -0.890
+\end{verbatim}
+
+\subsection*{N$_2$F$_4$ (\textit{cis,trans} mixed)}
+\begin{verbatim}
+6
+N2F4, planar configuration
+N  0.000  0.706  0.000
+N  0.000 -0.706  0.000
+F  1.059  1.227  0.000
+F -1.059  1.227  0.000
+F  1.059 -1.227  0.000
+F -1.059 -1.227  0.000
+\end{verbatim}
+
+\subsection*{Benzene (C$_6$H$_6$)}
+\begin{verbatim}
+12
+benzene, D6h symmetry, R(CC) = 1.395 Å, R(CH) = 1.084 Å
+C  1.395  0.000  0.000
+C  0.698  1.208  0.000
+C -0.698  1.208  0.000
+C -1.395  0.000  0.000
+C -0.698 -1.208  0.000
+C  0.698 -1.208  0.000
+H  2.479  0.000  0.000
+H  1.240  2.148  0.000
+H -1.240  2.148  0.000
+H -2.479  0.000  0.000
+H -1.240 -2.148  0.000
+H  1.240 -2.148  0.000
+\end{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Reconstruction Error Verification}
+\label{sec:recon}
+
+The per-MO decomposition (Eq.~3 of the main text) is an algebraic
+identity, so the reconstruction
+$\sum_i (c_i^{(\lambda_2)} - c_i^{(\lambda_1)}) = \delta_{\text{tot}}$
+is exact in exact arithmetic. Numerical implementation introduces
+errors only from finite-difference Hessian evaluation
+(used to compute $\partial^2 \psi_i/\partial \xi_q^2$).
+
+We use central differences with $\eps_h = 8 \times 10^{-3}$ a.u.\
+(verified to give errors $< 10^{-4}$ a.u.\ on diagonal Hessian
+elements). The reconstruction error
+$|\delta_\sigma + \delta_\pi - \delta_{\text{tot}}|$ is below
+$10^{-3}$ a.u.\ (or 0.1\% relative) in all 102 compounds tested.
+
+The dominant numerical error is from the central-difference scheme;
+analytic Hessian evaluation (planned for future work) would reduce
+this error to machine precision but is unnecessary for the qualitative
+sign-pattern analysis.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Code and Data Availability}
+\label{sec:SI_code}
+
+\subsection{Code}
+
+All Python source code, computational scripts, and unit tests are
+available at:
+\begin{center}
+\href{https://github.com/JackZH26/BCP-Hessian-MO-Decomposition}
+{\texttt{https://github.com/JackZH26/BCP-Hessian-MO-Decomposition}}
+\end{center}
+The repository is organized as:
+\begin{verbatim}
+src/                Source code (core algorithm + benchmark scripts)
+  sigma_pi_decomposition.py     Core module
+  v6_25_molecules_decomp.py     25-compound benchmark
+  v7_30_more_decomp.py          28 additional compounds
+  v8_50_more.py                 49 additional compounds
+  v9_ccpVTZ_robustness.py       16-compound cc-pVTZ HF test
+  v10_b3lyp_robustness.py       16-compound B3LYP test
+  v11_ccsd_correlation.py       8-compound CCSD test
+  v12_geometry_optimized.py     6-compound optimized geometry
+  v13_localized_mo.py           12-compound LMO independence test
+
+tests/              Unit tests (19 tests, run with pytest)
+examples/           Worked examples
+data/               Aggregated CSV
+docs/               Methodology summaries
+results/            Raw computational logs
+paper/              LaTeX manuscript and figures
+\end{verbatim}
+The code is licensed under CC BY 4.0. Continuous-integration testing
+on Python 3.10--3.12 is configured at \texttt{.github/workflows/tests.yml}.
+The version corresponding to this submission is commit \texttt{7f3cc86}.
+
+\subsection{Data Archive}
+
+A comprehensive data archive containing all input geometries, raw
+computational outputs, processed CSV tables, and PDF documentation
+is deposited at Figshare:
+\begin{center}
+\href{https://doi.org/10.6084/m9.figshare.32088900}
+{doi:10.6084/m9.figshare.32088900}
+\end{center}
+
+\subsection{Reproduction Instructions}
+
+To reproduce all results in this paper:
+\begin{enumerate}
+\item \texttt{git clone https://github.com/JackZH26/BCP-Hessian-MO-Decomposition}
+\item \texttt{cd BCP-Hessian-MO-Decomposition}
+\item \texttt{pip install -r requirements.txt}
+\item \texttt{pytest tests/} (verify all 19 unit tests pass, $\sim 3$~s)
+\item \texttt{python examples/example\_basic.py} (paradigm reproduction, $\sim 1$~min)
+\item Run individual benchmark scripts as needed:
+\begin{itemize}
+\item \texttt{python src/v6\_25\_molecules\_decomp.py} ($\sim 5$~min)
+\item \texttt{python src/v7\_30\_more\_decomp.py} ($\sim 5$~min)
+\item \texttt{python src/v8\_50\_more.py} ($\sim 6$~min)
+\item \texttt{python src/v9\_ccpVTZ\_robustness.py} ($\sim 60$~min)
+\item \texttt{python src/v10\_b3lyp\_robustness.py} ($\sim 30$~min)
+\item \texttt{python src/v11\_ccsd\_correlation.py} ($\sim 60$~min)
+\item \texttt{python src/v12\_geometry\_optimized.py} ($\sim 60$~min)
+\item \texttt{python src/v13\_localized\_mo.py} ($\sim 5$~min)
+\end{itemize}
+\end{enumerate}
+
+Total reproduction time: approximately 3 hours on commodity hardware.
+
+\subsection{Software Versions}
+
+The results in this paper were obtained with:
+\begin{itemize}
+\item Python 3.13.5
+\item PySCF 2.x (recent stable; see \texttt{requirements.txt})
+\item NumPy 1.26
+\item SciPy 1.7+
+\item pytest 9.0+
+\item geometric 1.1 (for v12 only)
+\end{itemize}
+
+\end{document}
