@@ -417,7 +417,7 @@ runs in approximately~1~h on commodity hardware.
 \subsection{Paradigm: Ethylene C=C}
 \label{sec:results_ethylene}
 
-We begin with ethylene as a paradigmatic case. The C=C BCP at the
+We begin with ethylene as a paradigmatic case (Fig.~\ref{fig:ethylene}). The C=C BCP at the
 HF/6-31G* level has $\rho_{\text{BCP}} = 0.351$~a.u.,
 $\lambda_1 = -0.779$~a.u., $\lambda_2 = -0.538$~a.u.,
 giving $\eps = 0.447$ and $\delta_{\text{tot}} = 0.241$~a.u.
@@ -435,6 +435,25 @@ The single $\pi$ orbital, in contrast, vanishes at the BCP
 $\mathbf{e}_1$ (perpendicular to the plane), giving $c_\pi^{(1)} > 0$.
 This raises $\lambda_1$ toward zero, decreasing $|\lambda_1|$ relative to
 $|\lambda_2|$ and contributing $\delpi < 0$.
+
+
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_ethylene_paradigm.pdf}
+\caption{(\textbf{Color online.}) Ethylene C=C BCP per-MO Hessian decomposition at
+HF/6-31G*. (\textbf{a}) Electron density contours in the molecular plane,
+with the BCP marked by a red star and the principal Hessian axes shown:
+$\mathbf{e}_2$ (in-plane perpendicular to bond), $\mathbf{e}_3$
+(along bond), $\mathbf{e}_1$ (out of plane, indicated by $\odot$).
+H atoms shown in light gray. (\textbf{b}) Top six per-MO contributions
+$c_i^{(\lambda_2)} - c_i^{(\lambda_1)}$ ranked by magnitude. The single
+$\pi$ MO (red, MO~4) gives a large negative contribution; multiple $\sigma$
+MOs (blue) collectively give a positive contribution. (\textbf{c}) Aggregate
+$\delsg$, $\delpi$, and $\delta_{\text{tot}} = \delsg + \delpi$.
+The reconstruction identity is satisfied to numerical precision.}
+\label{fig:ethylene}
+\end{figure*}
 
 The same paradigm extends to other $\sigma$+$\pi$ double bonds. Selected
 results are tabulated in Table~\ref{tab:paradigm}.
@@ -556,7 +575,7 @@ N$_2$F$_4$     & +0.47 & $-0.10$ & +0.44 & $-0.09$ & +0.41 & $-0.10$ & +0.47 & $
 \end{tabular}
 \end{table*}
 
-For the MO-localization independence test, we recomputed the per-MO
+For the MO-localization independence test (Fig.~\ref{fig:robustness}), we recomputed the per-MO
 decomposition using three localization schemes (Boys, Pipek-Mezey,
 IBO) on a 12-compound subset (Table~\ref{tab:lmo}). The localized
 MOs differ qualitatively from canonical MOs---they are spatially
@@ -593,6 +612,24 @@ N$_2$F$_4$         & +0.47 & $-0.10$ & +0.44 & $-0.07$ & +0.42 & $-0.05$ & +0.42
 \end{tabular}
 \end{table*}
 
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig4_robustness_scatter.pdf}
+\caption{(\textbf{Color online.}) Robustness of the
+$\delsg > 0$, $\delpi \le 0$ sign rule across methodological dimensions.
+Each point represents one (compound, method, basis, localization)
+combination from the benchmark; 70 such points are plotted, all from
+non-degenerate ($\eps > 0$) systems. Methods spanned: HF/6-31G*,
+HF/cc-pVTZ, B3LYP/def2-TZVP, CCSD/cc-pVDZ. Localization schemes:
+canonical (HF), Boys, Pipek-Mezey (PM), and intrinsic bond orbitals
+(IBO). All 70 points lie in the sign-rule quadrant
+($\delsg > 0$, $\delpi \le 0$, green shaded region). The dashed line
+shows the empirical typical relationship $\delpi = -0.5\,\delsg$.}
+\label{fig:robustness}
+\end{figure}
+
 For geometry-optimized vs.\ hand-built structures
 (Table~\ref{tab:geometry}), the magnitudes of $\eps$ change by 10--30\%
 under B3LYP/cc-pVTZ optimization, but the sign pattern is preserved
@@ -624,7 +661,7 @@ BH$_3$         & +0.10 & $\phantom{-}0.00$ & +0.11 & $\phantom{-}0.00$ \\
 \subsection{Unification of Literature Counterexamples}
 \label{sec:results_counter}
 
-The MO-resolved decomposition naturally explains several systems
+The MO-resolved decomposition naturally explains several systems (Fig.~\ref{fig:counterexamples})
 that have been historically discussed as counter-examples or
 puzzles within the standard $\eps$-as-$\pi$-probe picture:
 
@@ -662,6 +699,25 @@ $\delsg = +0.43$~a.u.; the small $\delpi = -0.30$~a.u.\ arises
 from F lone-pair orbitals that have $\pi$-like character with
 respect to the C--F bond axis.
 
+
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_counterexamples.pdf}
+\caption{(\textbf{Color online.}) Per-MO Hessian decomposition for four
+high-$\eps$ systems lacking conventional $\pi$ bonds, all at HF/6-31G*.
+(\textbf{a}) N$_2$F$_4$ N--N: a formal $\sigma$ single bond exhibits
+$\eps = 0.69$ via strong $\sigma$-framework anisotropy from four F substituents.
+(\textbf{b}) Cyclopropane C--C: $\eps = 0.84$ from Walsh
+($\sigma$-aromatic) orbitals~\citep{Walsh1947,Brown2009}. (\textbf{c}) BH$_3$
+B--H: no occupied $\pi$ MO ($\delpi = 0$ exactly), so $\eps = 0.28$
+arises from $\sigma$-only anisotropy. (\textbf{d}) CHF$_3$ C--F: $\sigma$
+asymmetry from F substituent distribution gives $\eps = 0.21$. In all
+four cases, $\delsg > 0$ dominates and (when $\pi$ MOs are present)
+$\delpi < 0$ provides a smaller correction.}
+\label{fig:counterexamples}
+\end{figure*}
+
 These four cases, along with the systematic patterns in Table~\ref{tab:categories},
 demonstrate that the per-MO decomposition provides a unified
 framework for interpreting $\eps$ across both ``conventional''
@@ -677,9 +733,26 @@ arbitrary in their plane, and individual values of $\delsg, \delpi$
 are not physically meaningful (they depend on an arbitrary rotation
 within the degenerate subspace). However, the algebraic identity
 $\delsg + \delpi = \delta_{\text{tot}} = 0$ remains exact.
-Indeed, for systems including HCCH (acetylene), HCN, N$_2$, CO, ethane,
+(Fig.~\ref{fig:degenerate}) Indeed, for systems including HCCH (acetylene), HCN, N$_2$, CO, ethane,
 methane, CO$_2$, OCS, CS$_2$, LiH, and others, our calculations
 yield $\delsg + \delpi$ within $5 \times 10^{-3}$~a.u.\ of zero.
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig3_degenerate.pdf}
+\caption{(\textbf{Color online.}) Per-MO contributions to the Hessian
+eigenvalue difference for cylindrically symmetric ($\eps \approx 0$)
+systems compared with non-degenerate ethylene. In degenerate cases
+the $\sigma$ and $\pi$ contributions cancel exactly
+($\delsg + \delpi = 0$); only ethylene exhibits a non-zero
+$\delta_{\text{tot}}$ from broken cylindrical symmetry. Individual
+values of $\delsg$, $\delpi$ in degenerate cases depend on an arbitrary
+rotation in the eigenspace and are not physically meaningful; only
+their cancellation is invariant. HF/6-31G* throughout.}
+\label{fig:degenerate}
+\end{figure}
 
 Of physical relevance is whether the magnitudes
 $|\delsg|, |\delpi|$ are large or small in these degenerate cases.
